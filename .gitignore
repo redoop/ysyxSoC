@@ -1,2 +1,4 @@
 build/
 out/
+synthesis/sim/*.vvp
+synthesis/waves/*.vcd
