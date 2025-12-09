@@ -324,52 +324,48 @@ module AXI4Xbar_1(
   wire        _awIn_0_io_enq_ready;
   wire        _awIn_0_io_deq_valid;
   wire [2:0]  _awIn_0_io_deq_bits;
-  wire [5:0]  _GEN = auto_anon_in_araddr[29:24] ^ 6'h21;
-  wire [3:0]  _requestARIO_T_20 = auto_anon_in_araddr[31:28] ^ 4'hA;
   wire        requestARIO_0_0 =
-    {auto_anon_in_araddr[31],
-     auto_anon_in_araddr[29],
-     ~(auto_anon_in_araddr[28]),
-     auto_anon_in_araddr[24]} == 4'h0
-    | {auto_anon_in_araddr[31], _GEN[5:4], _GEN[0]} == 4'h0
-    | {auto_anon_in_araddr[31], ~(auto_anon_in_araddr[29:28])} == 3'h0
-    | {~(auto_anon_in_araddr[31]),
-       auto_anon_in_araddr[29:28],
-       auto_anon_in_araddr[24]} == 4'h0
-    | {_requestARIO_T_20[3], _requestARIO_T_20[1:0]} == 3'h0;
+    {auto_anon_in_araddr[31:29],
+     auto_anon_in_araddr[28:24] ^ 5'h10,
+     auto_anon_in_araddr[20:17],
+     auto_anon_in_araddr[15]} == 13'h0
+    | {auto_anon_in_araddr[31:30], auto_anon_in_araddr[29:24] ^ 6'h21} == 8'h0
+    | {auto_anon_in_araddr[31:30], ~(auto_anon_in_araddr[29:28])} == 4'h0
+    | auto_anon_in_araddr[31:24] == 8'h80
+    | auto_anon_in_araddr[31:25] == 7'h50;
   wire        requestARIO_0_1 =
-    {auto_anon_in_araddr[31],
-     auto_anon_in_araddr[29:28] ^ 2'h2,
-     auto_anon_in_araddr[24],
-     auto_anon_in_araddr[12]} == 5'h0;
+    {auto_anon_in_araddr[31:30],
+     auto_anon_in_araddr[29:24] ^ 6'h20,
+     auto_anon_in_araddr[20:17],
+     auto_anon_in_araddr[15],
+     auto_anon_in_araddr[12]} == 14'h0;
   wire        requestARIO_0_2 =
-    {auto_anon_in_araddr[31],
-     auto_anon_in_araddr[29:28],
-     ~(auto_anon_in_araddr[24]),
-     auto_anon_in_araddr[12]} == 5'h0;
-  wire [5:0]  _GEN_0 = auto_anon_in_awaddr[29:24] ^ 6'h21;
-  wire [3:0]  _requestAWIO_T_20 = auto_anon_in_awaddr[31:28] ^ 4'hA;
+    {auto_anon_in_araddr[31:28],
+     ~(auto_anon_in_araddr[27:24]),
+     auto_anon_in_araddr[20:17],
+     auto_anon_in_araddr[15],
+     auto_anon_in_araddr[12]} == 14'h0;
   wire        requestAWIO_0_0 =
-    {auto_anon_in_awaddr[31],
-     auto_anon_in_awaddr[29],
-     ~(auto_anon_in_awaddr[28]),
-     auto_anon_in_awaddr[24]} == 4'h0
-    | {auto_anon_in_awaddr[31], _GEN_0[5:4], _GEN_0[0]} == 4'h0
-    | {auto_anon_in_awaddr[31], ~(auto_anon_in_awaddr[29:28])} == 3'h0
-    | {~(auto_anon_in_awaddr[31]),
-       auto_anon_in_awaddr[29:28],
-       auto_anon_in_awaddr[24]} == 4'h0
-    | {_requestAWIO_T_20[3], _requestAWIO_T_20[1:0]} == 3'h0;
+    {auto_anon_in_awaddr[31:29],
+     auto_anon_in_awaddr[28:24] ^ 5'h10,
+     auto_anon_in_awaddr[20:17],
+     auto_anon_in_awaddr[15]} == 13'h0
+    | {auto_anon_in_awaddr[31:30], auto_anon_in_awaddr[29:24] ^ 6'h21} == 8'h0
+    | {auto_anon_in_awaddr[31:30], ~(auto_anon_in_awaddr[29:28])} == 4'h0
+    | auto_anon_in_awaddr[31:24] == 8'h80
+    | auto_anon_in_awaddr[31:25] == 7'h50;
   wire        requestAWIO_0_1 =
-    {auto_anon_in_awaddr[31],
-     auto_anon_in_awaddr[29:28] ^ 2'h2,
-     auto_anon_in_awaddr[24],
-     auto_anon_in_awaddr[12]} == 5'h0;
+    {auto_anon_in_awaddr[31:30],
+     auto_anon_in_awaddr[29:24] ^ 6'h20,
+     auto_anon_in_awaddr[20:17],
+     auto_anon_in_awaddr[15],
+     auto_anon_in_awaddr[12]} == 14'h0;
   wire        requestAWIO_0_2 =
-    {auto_anon_in_awaddr[31],
-     auto_anon_in_awaddr[29:28],
-     ~(auto_anon_in_awaddr[24]),
-     auto_anon_in_awaddr[12]} == 5'h0;
+    {auto_anon_in_awaddr[31:28],
+     ~(auto_anon_in_awaddr[27:24]),
+     auto_anon_in_awaddr[20:17],
+     auto_anon_in_awaddr[15],
+     auto_anon_in_awaddr[12]} == 14'h0;
   wire [15:0] arSel = 16'h1 << auto_anon_in_arid;
   wire [15:0] awSel = 16'h1 << auto_anon_in_awid;
   wire [15:0] rSel = 16'h1 << _in_0_rT_20;
@@ -496,14 +492,12 @@ module AXI4Xbar_1(
     {auto_anon_out_2_rvalid, auto_anon_out_1_rvalid, auto_anon_out_0_rvalid};
   reg  [2:0]  readys_mask;
   wire [2:0]  _readys_filter_T_1 = readys_valid & ~readys_mask;
-  wire [3:0]  _GEN_1 =
+  wire [3:0]  _GEN =
     {_readys_filter_T_1[1:0], auto_anon_out_2_rvalid, auto_anon_out_1_rvalid}
     | {_readys_filter_T_1, auto_anon_out_2_rvalid};
   wire [5:0]  readys_unready =
-    {1'h0,
-     _readys_filter_T_1[2],
-     _GEN_1[3],
-     _GEN_1[2:0] | {_readys_filter_T_1[2], _GEN_1[3:2]}} | {readys_mask, 3'h0};
+    {1'h0, _readys_filter_T_1[2], _GEN[3], _GEN[2:0] | {_readys_filter_T_1[2], _GEN[3:2]}}
+    | {readys_mask, 3'h0};
   wire [2:0]  readys_readys = ~(readys_unready[5:3] & readys_unready[2:0]);
   wire        prefixOR_1 = readys_readys[0] & auto_anon_out_0_rvalid;
   wire        winner_3_1 = readys_readys[1] & auto_anon_out_1_rvalid;
@@ -530,14 +524,14 @@ module AXI4Xbar_1(
   wire [2:0]  readys_valid_1 = {auto_anon_out_2_bvalid, 1'h0, auto_anon_out_0_bvalid};
   reg  [2:0]  readys_mask_1;
   wire [2:0]  _readys_filter_T_3 = readys_valid_1 & ~readys_mask_1;
-  wire [3:0]  _GEN_2 =
+  wire [3:0]  _GEN_0 =
     {_readys_filter_T_3[1:0], auto_anon_out_2_bvalid, 1'h0}
     | {_readys_filter_T_3, auto_anon_out_2_bvalid};
   wire [5:0]  readys_unready_1 =
     {1'h0,
      _readys_filter_T_3[2],
-     _GEN_2[3],
-     _GEN_2[2:0] | {_readys_filter_T_3[2], _GEN_2[3:2]}} | {readys_mask_1, 3'h0};
+     _GEN_0[3],
+     _GEN_0[2:0] | {_readys_filter_T_3[2], _GEN_0[3:2]}} | {readys_mask_1, 3'h0};
   wire [2:0]  readys_readys_1 = ~(readys_unready_1[5:3] & readys_unready_1[2:0]);
   wire        winner_4_0 = readys_readys_1[0] & auto_anon_out_0_bvalid;
   wire        winner_4_2 = readys_readys_1[2] & auto_anon_out_2_bvalid;
@@ -749,15 +743,29 @@ module APBFanout(
   output        auto_anon_in_pready,
                 auto_anon_in_pslverr,
   output [31:0] auto_anon_in_prdata,
+  output        auto_anon_out_8_psel,
+                auto_anon_out_8_penable,
+                auto_anon_out_8_pwrite,
+  output [31:0] auto_anon_out_8_paddr,
+  output [2:0]  auto_anon_out_8_pprot,
+  output [31:0] auto_anon_out_8_pwdata,
+  output [3:0]  auto_anon_out_8_pstrb,
+  input         auto_anon_out_8_pready,
+                auto_anon_out_8_pslverr,
+  input  [31:0] auto_anon_out_8_prdata,
+  output        auto_anon_out_7_psel,
+                auto_anon_out_7_penable,
+                auto_anon_out_7_pwrite,
+  output [28:0] auto_anon_out_7_paddr,
+  output [31:0] auto_anon_out_7_pwdata,
+  input         auto_anon_out_7_pready,
+  input  [31:0] auto_anon_out_7_prdata,
   output        auto_anon_out_6_psel,
                 auto_anon_out_6_penable,
                 auto_anon_out_6_pwrite,
-  output [31:0] auto_anon_out_6_paddr,
-  output [2:0]  auto_anon_out_6_pprot,
+  output [28:0] auto_anon_out_6_paddr,
   output [31:0] auto_anon_out_6_pwdata,
-  output [3:0]  auto_anon_out_6_pstrb,
   input         auto_anon_out_6_pready,
-                auto_anon_out_6_pslverr,
   input  [31:0] auto_anon_out_6_prdata,
   output        auto_anon_out_5_psel,
                 auto_anon_out_5_penable,
@@ -827,13 +835,13 @@ module APBFanout(
      auto_anon_in_paddr[29],
      _GEN[16],
      auto_anon_in_paddr[16],
-     _GEN[1:0]} == 6'h0 | {auto_anon_in_paddr[31], ~(auto_anon_in_paddr[29:28])} == 3'h0;
+     _GEN[2:0]} == 7'h0 | {auto_anon_in_paddr[31], ~(auto_anon_in_paddr[29:28])} == 3'h0;
   wire        sel_1 =
     {auto_anon_in_paddr[31],
      auto_anon_in_paddr[29],
      ~(auto_anon_in_paddr[28]),
      auto_anon_in_paddr[16],
-     auto_anon_in_paddr[13:12]} == 6'h0;
+     auto_anon_in_paddr[14:12]} == 7'h0;
   wire        sel_2 = {~(auto_anon_in_paddr[31]), auto_anon_in_paddr[29:28]} == 3'h0;
   wire [16:0] _GEN_0 = auto_anon_in_paddr[28:12] ^ 17'h10002;
   wire        sel_3 =
@@ -841,39 +849,65 @@ module APBFanout(
      auto_anon_in_paddr[29],
      _GEN_0[16],
      auto_anon_in_paddr[16],
-     _GEN_0[1:0]} == 6'h0;
+     _GEN_0[2:0]} == 7'h0;
   wire [16:0] _GEN_1 = auto_anon_in_paddr[28:12] ^ 17'h10011;
   wire        sel_4 =
     {auto_anon_in_paddr[31],
      auto_anon_in_paddr[29],
      _GEN_1[16],
      _GEN_1[4],
-     _GEN_1[1:0]} == 6'h0;
+     _GEN_1[2:0]} == 7'h0;
   wire        sel_5 = {auto_anon_in_paddr[31], auto_anon_in_paddr[29:28] ^ 2'h2} == 3'h0;
-  wire [3:0]  _sel_T_36 = auto_anon_in_paddr[31:28] ^ 4'hA;
-  wire        sel_6 = {_sel_T_36[3], _sel_T_36[1:0]} == 3'h0;
+  wire [16:0] _GEN_2 = auto_anon_in_paddr[28:12] ^ 17'h10003;
+  wire        sel_6 =
+    {auto_anon_in_paddr[31],
+     auto_anon_in_paddr[29],
+     _GEN_2[16],
+     auto_anon_in_paddr[16],
+     _GEN_2[2:0]} == 7'h0;
+  wire [16:0] _GEN_3 = auto_anon_in_paddr[28:12] ^ 17'h10004;
+  wire        sel_7 =
+    {auto_anon_in_paddr[31],
+     auto_anon_in_paddr[29],
+     _GEN_3[16],
+     auto_anon_in_paddr[16],
+     _GEN_3[2:0]} == 7'h0;
+  wire [3:0]  _sel_T_46 = auto_anon_in_paddr[31:28] ^ 4'hA;
+  wire        sel_8 = {_sel_T_46[3], _sel_T_46[1:0]} == 3'h0;
   assign auto_anon_in_pready =
     ~(sel_0 & ~auto_anon_out_0_pready | sel_1 & ~auto_anon_out_1_pready | sel_2
       & ~auto_anon_out_2_pready | sel_3 & ~auto_anon_out_3_pready | sel_4
       & ~auto_anon_out_4_pready | sel_5 & ~auto_anon_out_5_pready | sel_6
-      & ~auto_anon_out_6_pready);
+      & ~auto_anon_out_6_pready | sel_7 & ~auto_anon_out_7_pready | sel_8
+      & ~auto_anon_out_8_pready);
   assign auto_anon_in_pslverr =
     sel_0 & auto_anon_out_0_pslverr | sel_1 & auto_anon_out_1_pslverr | sel_2
     & auto_anon_out_2_pslverr | sel_3 & auto_anon_out_3_pslverr | sel_4
-    & auto_anon_out_4_pslverr | sel_5 & auto_anon_out_5_pslverr | sel_6
-    & auto_anon_out_6_pslverr;
+    & auto_anon_out_4_pslverr | sel_5 & auto_anon_out_5_pslverr | sel_8
+    & auto_anon_out_8_pslverr;
   assign auto_anon_in_prdata =
     (sel_0 ? auto_anon_out_0_prdata : 32'h0) | (sel_1 ? auto_anon_out_1_prdata : 32'h0)
     | (sel_2 ? auto_anon_out_2_prdata : 32'h0) | (sel_3 ? auto_anon_out_3_prdata : 32'h0)
     | (sel_4 ? auto_anon_out_4_prdata : 32'h0) | (sel_5 ? auto_anon_out_5_prdata : 32'h0)
-    | (sel_6 ? auto_anon_out_6_prdata : 32'h0);
+    | (sel_6 ? auto_anon_out_6_prdata : 32'h0) | (sel_7 ? auto_anon_out_7_prdata : 32'h0)
+    | (sel_8 ? auto_anon_out_8_prdata : 32'h0);
+  assign auto_anon_out_8_psel = sel_8 & auto_anon_in_psel;
+  assign auto_anon_out_8_penable = sel_8 & auto_anon_in_penable;
+  assign auto_anon_out_8_pwrite = auto_anon_in_pwrite;
+  assign auto_anon_out_8_paddr = auto_anon_in_paddr;
+  assign auto_anon_out_8_pprot = auto_anon_in_pprot;
+  assign auto_anon_out_8_pwdata = auto_anon_in_pwdata;
+  assign auto_anon_out_8_pstrb = auto_anon_in_pstrb;
+  assign auto_anon_out_7_psel = sel_7 & auto_anon_in_psel;
+  assign auto_anon_out_7_penable = sel_7 & auto_anon_in_penable;
+  assign auto_anon_out_7_pwrite = auto_anon_in_pwrite;
+  assign auto_anon_out_7_paddr = auto_anon_in_paddr[28:0];
+  assign auto_anon_out_7_pwdata = auto_anon_in_pwdata;
   assign auto_anon_out_6_psel = sel_6 & auto_anon_in_psel;
   assign auto_anon_out_6_penable = sel_6 & auto_anon_in_penable;
   assign auto_anon_out_6_pwrite = auto_anon_in_pwrite;
-  assign auto_anon_out_6_paddr = auto_anon_in_paddr;
-  assign auto_anon_out_6_pprot = auto_anon_in_pprot;
+  assign auto_anon_out_6_paddr = auto_anon_in_paddr[28:0];
   assign auto_anon_out_6_pwdata = auto_anon_in_pwdata;
-  assign auto_anon_out_6_pstrb = auto_anon_in_pstrb;
   assign auto_anon_out_5_psel = sel_5 & auto_anon_in_psel;
   assign auto_anon_out_5_penable = sel_5 & auto_anon_in_penable;
   assign auto_anon_out_5_pwrite = auto_anon_in_pwrite;
@@ -1455,6 +1489,546 @@ module AXI4RAM(
      rdata_REG ? _mem_ext_R0_data[15:8] : rdata_r1,
      rdata_REG ? _mem_ext_R0_data[7:0] : rdata_r0};
   assign auto_in_rresp = r_sel1 ? 2'h0 : 2'h3;
+endmodule
+
+// VCS coverage exclude_file
+module matrix_64x32(
+  input  [5:0]  R0_addr,
+  input         R0_en,
+                R0_clk,
+  output [31:0] R0_data,
+  input  [5:0]  W0_addr,
+  input         W0_en,
+                W0_clk,
+  input  [31:0] W0_data
+);
+
+  reg [31:0] Memory[0:63];
+  always @(posedge W0_clk) begin
+    if (W0_en & 1'h1)
+      Memory[W0_addr] <= W0_data;
+  end // always @(posedge)
+  assign R0_data = R0_en ? Memory[R0_addr] : 32'bx;
+endmodule
+
+module SimpleCompactAccel(
+  input         clock,
+                reset,
+  input  [31:0] io_reg_addr,
+                io_reg_wdata,
+  output [31:0] io_reg_rdata,
+  input         io_reg_wen,
+                io_reg_ren,
+                io_reg_valid
+);
+
+  wire [31:0] _matrixC_ext_R0_data;
+  wire [31:0] _matrixB_ext_R0_data;
+  wire [31:0] _matrixA_ext_R0_data;
+  reg  [31:0] ctrl;
+  reg  [31:0] status;
+  reg  [31:0] matrixSize;
+  reg  [31:0] perfCycles;
+  reg  [1:0]  state;
+  reg  [3:0]  i;
+  reg  [3:0]  j;
+  reg  [3:0]  k;
+  reg  [31:0] accumulator;
+  wire        _GEN = state == 2'h0;
+  wire        _GEN_0 = state == 2'h1;
+  wire [5:0]  _GEN_1 = {i[2:0], 3'h0};
+  wire [5:0]  _GEN_2 = {2'h0, j};
+  wire        _GEN_3 = ~_GEN & _GEN_0;
+  wire [31:0] _newAccum_T = accumulator + _matrixA_ext_R0_data * _matrixB_ext_R0_data;
+  wire [31:0] _GEN_4 = matrixSize - 32'h1;
+  wire [31:0] _GEN_5 = {28'h0, k};
+  wire        _GEN_6 = io_reg_addr[11:0] == 12'h0;
+  wire        _GEN_7 = io_reg_addr[11:0] == 12'h1C;
+  wire        _GEN_8 = io_reg_valid & io_reg_wen;
+  wire        _GEN_9 = io_reg_addr[11:0] > 12'h4FF & io_reg_addr[11:0] < 12'h600;
+  wire        _GEN_10 = io_reg_valid & io_reg_ren;
+  always @(posedge clock) begin
+    if (reset) begin
+      ctrl <= 32'h0;
+      status <= 32'h0;
+      matrixSize <= 32'h8;
+      perfCycles <= 32'h0;
+      state <= 2'h0;
+      i <= 4'h0;
+      j <= 4'h0;
+      k <= 4'h0;
+      accumulator <= 32'h0;
+    end
+    else begin
+      automatic logic             _GEN_11;
+      automatic logic             _GEN_12;
+      automatic logic             _GEN_13;
+      automatic logic [3:0][31:0] _GEN_14 = {{status}, {32'h2}, {32'h1}, {32'h0}};
+      automatic logic [3:0][1:0]  _GEN_15;
+      _GEN_11 = _GEN_5 < _GEN_4;
+      _GEN_12 = {28'h0, j} < _GEN_4;
+      _GEN_13 = {28'h0, i} < _GEN_4;
+      if (io_reg_valid & io_reg_wen & _GEN_6)
+        ctrl <= io_reg_wdata;
+      else if (_GEN | _GEN_0 | state != 2'h2) begin
+      end
+      else
+        ctrl <= 32'h0;
+      status <= _GEN_14[state];
+      if (~_GEN_8 | _GEN_6 | ~_GEN_7) begin
+      end
+      else
+        matrixSize <= io_reg_wdata;
+      if (_GEN) begin
+        if (ctrl[0]) begin
+          perfCycles <= 32'h0;
+          i <= 4'h0;
+          j <= 4'h0;
+          k <= 4'h0;
+          accumulator <= 32'h0;
+        end
+      end
+      else begin
+        if (_GEN_0) begin
+          perfCycles <= perfCycles + 32'h1;
+          k <= _GEN_11 ? k + 4'h1 : 4'h0;
+          accumulator <= _GEN_11 ? _newAccum_T : 32'h0;
+        end
+        if (~_GEN_0 | _GEN_11 | _GEN_12 | ~_GEN_13) begin
+        end
+        else
+          i <= i + 4'h1;
+        if (~_GEN_0 | _GEN_11) begin
+        end
+        else
+          j <= _GEN_12 ? j + 4'h1 : 4'h0;
+      end
+      _GEN_15 =
+        {{state},
+         {2'h0},
+         {_GEN_11 | _GEN_12 | _GEN_13 ? state : 2'h2},
+         {ctrl[0] ? 2'h1 : state}};
+      state <= _GEN_15[state];
+    end
+  end // always @(posedge)
+  matrix_64x32 matrixA_ext (
+    .R0_addr (_GEN_1 + {2'h0, k}),
+    .R0_en   (_GEN_3),
+    .R0_clk  (clock),
+    .R0_data (_matrixA_ext_R0_data),
+    .W0_addr (io_reg_addr[7:2]),
+    .W0_en   (_GEN_8 & (|(io_reg_addr[11:8])) & io_reg_addr[11:0] < 12'h200),
+    .W0_clk  (clock),
+    .W0_data (io_reg_wdata)
+  );
+  matrix_64x32 matrixB_ext (
+    .R0_addr ({k[2:0], 3'h0} + _GEN_2),
+    .R0_en   (_GEN_3),
+    .R0_clk  (clock),
+    .R0_data (_matrixB_ext_R0_data),
+    .W0_addr (io_reg_addr[7:2]),
+    .W0_en   (_GEN_8 & io_reg_addr[11:0] > 12'h2FF & io_reg_addr[11:0] < 12'h400),
+    .W0_clk  (clock),
+    .W0_data (io_reg_wdata)
+  );
+  matrix_64x32 matrixC_ext (
+    .R0_addr (io_reg_addr[7:2]),
+    .R0_en   (_GEN_10 & _GEN_9),
+    .R0_clk  (clock),
+    .R0_data (_matrixC_ext_R0_data),
+    .W0_addr (_GEN_1 + _GEN_2),
+    .W0_en   (~_GEN & _GEN_0 & _GEN_5 >= _GEN_4),
+    .W0_clk  (clock),
+    .W0_data (_newAccum_T)
+  );
+  assign io_reg_rdata =
+    _GEN_10
+      ? (_GEN_9
+           ? _matrixC_ext_R0_data
+           : _GEN_6
+               ? ctrl
+               : io_reg_addr[11:0] == 12'h4
+                   ? status
+                   : _GEN_7
+                       ? matrixSize
+                       : io_reg_addr[11:0] == 12'h28 ? perfCycles : 32'h0)
+      : 32'h0;
+endmodule
+
+module APBCompactAccel(
+  input         clock,
+                reset,
+                auto_in_psel,
+                auto_in_penable,
+                auto_in_pwrite,
+  input  [28:0] auto_in_paddr,
+  input  [31:0] auto_in_pwdata,
+  output        auto_in_pready,
+  output [31:0] auto_in_prdata
+);
+
+  wire [31:0] _accel_io_reg_rdata;
+  reg         state;
+  wire        _GEN = auto_in_psel & auto_in_penable;
+  always @(posedge clock) begin
+    if (reset)
+      state <= 1'h0;
+    else
+      state <= ~state & (_GEN | state);
+  end // always @(posedge)
+  SimpleCompactAccel accel (
+    .clock        (clock),
+    .reset        (reset),
+    .io_reg_addr  ({3'h0, auto_in_paddr}),
+    .io_reg_wdata (auto_in_pwdata),
+    .io_reg_rdata (_accel_io_reg_rdata),
+    .io_reg_wen   (state ? state & auto_in_pwrite : _GEN & auto_in_pwrite),
+    .io_reg_ren   (state ? state & ~auto_in_pwrite : _GEN & ~auto_in_pwrite),
+    .io_reg_valid (state ? state : _GEN)
+  );
+  assign auto_in_pready = state;
+  assign auto_in_prdata = state ? _accel_io_reg_rdata : 32'h0;
+endmodule
+
+// VCS coverage exclude_file
+module activation_256x32(
+  input  [7:0]  R0_addr,
+  input         R0_en,
+                R0_clk,
+  output [31:0] R0_data,
+  input  [7:0]  R1_addr,
+  input         R1_en,
+                R1_clk,
+  output [31:0] R1_data,
+  input  [7:0]  W0_addr,
+  input         W0_en,
+                W0_clk,
+  input  [31:0] W0_data
+);
+
+  reg [31:0] Memory[0:255];
+  always @(posedge W0_clk) begin
+    if (W0_en & 1'h1)
+      Memory[W0_addr] <= W0_data;
+  end // always @(posedge)
+  assign R0_data = R0_en ? Memory[R0_addr] : 32'bx;
+  assign R1_data = R1_en ? Memory[R1_addr] : 32'bx;
+endmodule
+
+// VCS coverage exclude_file
+module weight_256x2(
+  input  [7:0] R0_addr,
+  input        R0_en,
+               R0_clk,
+  output [1:0] R0_data,
+  input  [7:0] R1_addr,
+  input        R1_en,
+               R1_clk,
+  output [1:0] R1_data,
+  input  [7:0] W0_addr,
+  input        W0_en,
+               W0_clk,
+  input  [1:0] W0_data
+);
+
+  reg [1:0] Memory[0:255];
+  always @(posedge W0_clk) begin
+    if (W0_en & 1'h1)
+      Memory[W0_addr] <= W0_data;
+  end // always @(posedge)
+  assign R0_data = R0_en ? Memory[R0_addr] : 2'bx;
+  assign R1_data = R1_en ? Memory[R1_addr] : 2'bx;
+endmodule
+
+// VCS coverage exclude_file
+module result_256x32(
+  input  [7:0]  R0_addr,
+  input         R0_en,
+                R0_clk,
+  output [31:0] R0_data,
+  input  [7:0]  W0_addr,
+  input         W0_en,
+                W0_clk,
+  input  [31:0] W0_data
+);
+
+  reg [31:0] Memory[0:255];
+  always @(posedge W0_clk) begin
+    if (W0_en & 1'h1)
+      Memory[W0_addr] <= W0_data;
+  end // always @(posedge)
+  assign R0_data = R0_en ? Memory[R0_addr] : 32'bx;
+endmodule
+
+module SimpleBitNetAccel(
+  input         clock,
+                reset,
+  input  [31:0] io_reg_addr,
+                io_reg_wdata,
+  output [31:0] io_reg_rdata,
+  input         io_reg_wen,
+                io_reg_ren,
+                io_reg_valid
+);
+
+  wire [31:0] _result_ext_R0_data;
+  wire [1:0]  _weight_ext_R0_data;
+  wire [1:0]  _weight_ext_R1_data;
+  wire [31:0] _activation_ext_R0_data;
+  wire [31:0] _activation_ext_R1_data;
+  reg  [31:0] ctrl;
+  reg  [31:0] status;
+  reg  [31:0] config_0;
+  reg  [31:0] matrixSize;
+  reg  [31:0] perfCycles;
+  reg  [31:0] sparsitySkipped;
+  reg  [31:0] errorCode;
+  reg  [1:0]  state;
+  reg  [7:0]  i;
+  reg  [7:0]  j;
+  reg  [7:0]  k;
+  reg  [31:0] accumulator;
+  reg  [2:0]  finalizeCounter;
+  wire        _GEN = state == 2'h0;
+  wire        _GEN_0 = state == 2'h1;
+  wire [7:0]  _GEN_1 = {i[3:0], 4'h0};
+  wire        _GEN_2 = ~_GEN & _GEN_0;
+  wire        _GEN_3 = _weight_ext_R0_data == 2'h1;
+  wire [31:0] _newAccum_T = accumulator + _activation_ext_R1_data;
+  wire        _GEN_4 = _weight_ext_R0_data == 2'h2;
+  wire [31:0] _newAccum_T_3 = accumulator - _activation_ext_R1_data;
+  wire [31:0] _isLastElement_T_3 = matrixSize - 32'h1;
+  wire [31:0] _GEN_5 = {24'h0, k};
+  wire        _GEN_6 = io_reg_addr[11:0] == 12'h0;
+  wire        _GEN_7 = io_reg_addr[11:0] == 12'h1C;
+  wire        _GEN_8 = io_reg_valid & io_reg_wen;
+  wire        _GEN_9 = io_reg_addr[11:0] == 12'h20;
+  wire        _GEN_10 = (|(io_reg_addr[11:8])) & io_reg_addr[11:0] < 12'h300;
+  wire [9:0]  _idx_T = io_reg_addr[9:0] - 10'h100;
+  wire        _GEN_11 = io_reg_addr[11:0] > 12'h2FF & io_reg_addr[11:0] < 12'h500;
+  wire [9:0]  _idx_T_2 = io_reg_addr[9:0] + 10'h100;
+  wire [9:0]  _idx_T_4 = io_reg_addr[9:0] - 10'h100;
+  wire        _GEN_12 = io_reg_valid & io_reg_ren;
+  wire [9:0]  _idx_T_6 = io_reg_addr[9:0] + 10'h100;
+  wire        _GEN_13 = io_reg_addr[11:0] > 12'h4FF & io_reg_addr[11:0] < 12'h900;
+  wire [9:0]  _idx_T_8 = io_reg_addr[9:0] - 10'h100;
+  always @(posedge clock) begin
+    if (reset) begin
+      ctrl <= 32'h0;
+      status <= 32'h0;
+      config_0 <= 32'h0;
+      matrixSize <= 32'h8;
+      perfCycles <= 32'h0;
+      sparsitySkipped <= 32'h0;
+      errorCode <= 32'h0;
+      state <= 2'h0;
+      i <= 8'h0;
+      j <= 8'h0;
+      k <= 8'h0;
+      accumulator <= 32'h0;
+      finalizeCounter <= 3'h0;
+    end
+    else begin
+      automatic logic             _GEN_14;
+      automatic logic             _GEN_15;
+      automatic logic             _GEN_16;
+      automatic logic [31:0]      _GEN_17;
+      automatic logic             isLastElement;
+      automatic logic             _GEN_18;
+      automatic logic             _GEN_19;
+      automatic logic [3:0][31:0] _GEN_20;
+      automatic logic [3:0][1:0]  _GEN_21;
+      _GEN_14 = matrixSize < 32'h2 | matrixSize > 32'h8;
+      _GEN_15 = ~(ctrl[0]) | _GEN_14;
+      _GEN_16 = _GEN_5 < _isLastElement_T_3;
+      _GEN_17 = {24'h0, j};
+      isLastElement = {24'h0, i} == _isLastElement_T_3 & _GEN_17 == _isLastElement_T_3;
+      _GEN_18 = state == 2'h2;
+      _GEN_19 = state != 2'h3;
+      if (io_reg_valid & io_reg_wen & _GEN_6)
+        ctrl <= io_reg_wdata;
+      else if (_GEN | _GEN_0 | _GEN_18 | _GEN_19) begin
+      end
+      else
+        ctrl <= 32'h0;
+      _GEN_20 =
+        {{_GEN_18 | _GEN_19 ? status : 32'h2},
+         {status},
+         {32'h1},
+         {ctrl[0] & _GEN_14 ? 32'h3 : 32'h0}};
+      status <= _GEN_20[state];
+      if (~_GEN_8 | _GEN_6 | _GEN_7 | ~_GEN_9) begin
+      end
+      else
+        config_0 <= io_reg_wdata;
+      if (~_GEN_8 | _GEN_6 | ~_GEN_7) begin
+      end
+      else
+        matrixSize <=
+          (|(io_reg_wdata[31:1])) & io_reg_wdata < 32'h9 ? io_reg_wdata : 32'h8;
+      if (_GEN) begin
+        if (_GEN_15) begin
+        end
+        else begin
+          perfCycles <= 32'h0;
+          sparsitySkipped <= 32'h0;
+          i <= 8'h0;
+          j <= 8'h0;
+          k <= 8'h0;
+          accumulator <= 32'h0;
+          finalizeCounter <= 3'h0;
+        end
+      end
+      else begin
+        automatic logic _GEN_22;
+        _GEN_22 = _GEN_17 < _isLastElement_T_3;
+        if (_GEN_0) begin
+          perfCycles <= perfCycles + 32'h1;
+          if (_GEN_16) begin
+            k <= k + 8'h1;
+            if (_GEN_3)
+              accumulator <= _newAccum_T;
+            else if (_GEN_4)
+              accumulator <= _newAccum_T_3;
+          end
+          else if (~isLastElement) begin
+            k <= 8'h0;
+            accumulator <= 32'h0;
+          end
+        end
+        if (~_GEN_0 | _GEN_3 | _GEN_4) begin
+        end
+        else
+          sparsitySkipped <= sparsitySkipped + 32'h1;
+        if (~_GEN_0 | _GEN_16 | isLastElement | _GEN_22) begin
+        end
+        else
+          i <= i + 8'h1;
+        if (~_GEN_0 | _GEN_16 | isLastElement) begin
+        end
+        else
+          j <= _GEN_22 ? j + 8'h1 : 8'h0;
+        if (_GEN_0 | ~_GEN_18) begin
+        end
+        else
+          finalizeCounter <= finalizeCounter + 3'h1;
+      end
+      if (_GEN & ctrl[0])
+        errorCode <= {31'h0, _GEN_14};
+      _GEN_21 =
+        {{2'h0},
+         {finalizeCounter > 3'h2 ? 2'h3 : state},
+         {_GEN_16 | ~isLastElement ? state : 2'h2},
+         {_GEN_15 ? state : 2'h1}};
+      state <= _GEN_21[state];
+    end
+  end // always @(posedge)
+  activation_256x32 activation_ext (
+    .R0_addr (_idx_T_4[9:2]),
+    .R0_en   (_GEN_12 & _GEN_10),
+    .R0_clk  (clock),
+    .R0_data (_activation_ext_R0_data),
+    .R1_addr (_GEN_1 + k),
+    .R1_en   (_GEN_2),
+    .R1_clk  (clock),
+    .R1_data (_activation_ext_R1_data),
+    .W0_addr (_idx_T[9:2]),
+    .W0_en   (_GEN_8 & _GEN_10),
+    .W0_clk  (clock),
+    .W0_data (io_reg_wdata)
+  );
+  weight_256x2 weight_ext (
+    .R0_addr ({k[3:0], 4'h0} + j),
+    .R0_en   (_GEN_2),
+    .R0_clk  (clock),
+    .R0_data (_weight_ext_R0_data),
+    .R1_addr (_idx_T_6[9:2]),
+    .R1_en   (_GEN_12 & _GEN_11),
+    .R1_clk  (clock),
+    .R1_data (_weight_ext_R1_data),
+    .W0_addr (_idx_T_2[9:2]),
+    .W0_en   (_GEN_8 & _GEN_11),
+    .W0_clk  (clock),
+    .W0_data
+      (io_reg_wdata == 32'h0
+         ? 2'h0
+         : io_reg_wdata == 32'h1 | ~((&io_reg_wdata) | $signed(io_reg_wdata) < 32'sh1)
+             ? 2'h1
+             : 2'h2)
+  );
+  result_256x32 result_ext (
+    .R0_addr (_idx_T_8[9:2]),
+    .R0_en   (_GEN_12 & _GEN_13),
+    .R0_clk  (clock),
+    .R0_data (_result_ext_R0_data),
+    .W0_addr (_GEN_1 + j),
+    .W0_en   (~_GEN & _GEN_0 & _GEN_5 >= _isLastElement_T_3),
+    .W0_clk  (clock),
+    .W0_data (_GEN_3 ? _newAccum_T : _GEN_4 ? _newAccum_T_3 : accumulator)
+  );
+  assign io_reg_rdata =
+    _GEN_12
+      ? (_GEN_13
+           ? _result_ext_R0_data
+           : _GEN_11
+               ? (_weight_ext_R1_data == 2'h0
+                    ? 32'h0
+                    : _weight_ext_R1_data == 2'h1
+                        ? 32'h1
+                        : {32{_weight_ext_R1_data == 2'h2}})
+               : _GEN_10
+                   ? _activation_ext_R0_data
+                   : _GEN_6
+                       ? ctrl
+                       : io_reg_addr[11:0] == 12'h4
+                           ? status
+                           : _GEN_7
+                               ? matrixSize
+                               : _GEN_9
+                                   ? config_0
+                                   : io_reg_addr[11:0] == 12'h28
+                                       ? perfCycles
+                                       : io_reg_addr[11:0] == 12'h2C
+                                           ? sparsitySkipped
+                                           : io_reg_addr[11:0] == 12'h30
+                                               ? errorCode
+                                               : 32'h0)
+      : 32'h0;
+endmodule
+
+module APBBitNetAccel(
+  input         clock,
+                reset,
+                auto_in_psel,
+                auto_in_penable,
+                auto_in_pwrite,
+  input  [28:0] auto_in_paddr,
+  input  [31:0] auto_in_pwdata,
+  output        auto_in_pready,
+  output [31:0] auto_in_prdata
+);
+
+  wire [31:0] _accel_io_reg_rdata;
+  reg         state;
+  wire        _GEN = auto_in_psel & auto_in_penable;
+  always @(posedge clock) begin
+    if (reset)
+      state <= 1'h0;
+    else
+      state <= ~state & (_GEN | state);
+  end // always @(posedge)
+  SimpleBitNetAccel accel (
+    .clock        (clock),
+    .reset        (reset),
+    .io_reg_addr  ({3'h0, auto_in_paddr}),
+    .io_reg_wdata (auto_in_pwdata),
+    .io_reg_rdata (_accel_io_reg_rdata),
+    .io_reg_wen   (state ? state & auto_in_pwrite : _GEN & auto_in_pwrite),
+    .io_reg_ren   (state ? state & ~auto_in_pwrite : _GEN & ~auto_in_pwrite),
+    .io_reg_valid (state ? state : _GEN)
+  );
+  assign auto_in_pready = state;
+  assign auto_in_prdata = state ? _accel_io_reg_rdata : 32'h0;
 endmodule
 
 module APBSDRAM(
@@ -3553,6 +4127,10 @@ module ysyxSoCASIC(
   wire        _lsdram_apb_auto_in_pready;
   wire        _lsdram_apb_auto_in_pslverr;
   wire [31:0] _lsdram_apb_auto_in_prdata;
+  wire        _lbitnet_auto_in_pready;
+  wire [31:0] _lbitnet_auto_in_prdata;
+  wire        _lcompact_auto_in_pready;
+  wire [31:0] _lcompact_auto_in_prdata;
   wire        _axi4ram_auto_in_awready;
   wire        _axi4ram_auto_in_wready;
   wire        _axi4ram_auto_in_bvalid;
@@ -3614,13 +4192,23 @@ module ysyxSoCASIC(
   wire        _apbxbar_auto_anon_in_pready;
   wire        _apbxbar_auto_anon_in_pslverr;
   wire [31:0] _apbxbar_auto_anon_in_prdata;
+  wire        _apbxbar_auto_anon_out_8_psel;
+  wire        _apbxbar_auto_anon_out_8_penable;
+  wire        _apbxbar_auto_anon_out_8_pwrite;
+  wire [31:0] _apbxbar_auto_anon_out_8_paddr;
+  wire [2:0]  _apbxbar_auto_anon_out_8_pprot;
+  wire [31:0] _apbxbar_auto_anon_out_8_pwdata;
+  wire [3:0]  _apbxbar_auto_anon_out_8_pstrb;
+  wire        _apbxbar_auto_anon_out_7_psel;
+  wire        _apbxbar_auto_anon_out_7_penable;
+  wire        _apbxbar_auto_anon_out_7_pwrite;
+  wire [28:0] _apbxbar_auto_anon_out_7_paddr;
+  wire [31:0] _apbxbar_auto_anon_out_7_pwdata;
   wire        _apbxbar_auto_anon_out_6_psel;
   wire        _apbxbar_auto_anon_out_6_penable;
   wire        _apbxbar_auto_anon_out_6_pwrite;
-  wire [31:0] _apbxbar_auto_anon_out_6_paddr;
-  wire [2:0]  _apbxbar_auto_anon_out_6_pprot;
+  wire [28:0] _apbxbar_auto_anon_out_6_paddr;
   wire [31:0] _apbxbar_auto_anon_out_6_pwdata;
-  wire [3:0]  _apbxbar_auto_anon_out_6_pstrb;
   wire        _apbxbar_auto_anon_out_5_psel;
   wire        _apbxbar_auto_anon_out_5_penable;
   wire        _apbxbar_auto_anon_out_5_pwrite;
@@ -3946,16 +4534,30 @@ module ysyxSoCASIC(
     .auto_anon_in_pready     (_apbxbar_auto_anon_in_pready),
     .auto_anon_in_pslverr    (_apbxbar_auto_anon_in_pslverr),
     .auto_anon_in_prdata     (_apbxbar_auto_anon_in_prdata),
+    .auto_anon_out_8_psel    (_apbxbar_auto_anon_out_8_psel),
+    .auto_anon_out_8_penable (_apbxbar_auto_anon_out_8_penable),
+    .auto_anon_out_8_pwrite  (_apbxbar_auto_anon_out_8_pwrite),
+    .auto_anon_out_8_paddr   (_apbxbar_auto_anon_out_8_paddr),
+    .auto_anon_out_8_pprot   (_apbxbar_auto_anon_out_8_pprot),
+    .auto_anon_out_8_pwdata  (_apbxbar_auto_anon_out_8_pwdata),
+    .auto_anon_out_8_pstrb   (_apbxbar_auto_anon_out_8_pstrb),
+    .auto_anon_out_8_pready  (_lsdram_apb_auto_in_pready),
+    .auto_anon_out_8_pslverr (_lsdram_apb_auto_in_pslverr),
+    .auto_anon_out_8_prdata  (_lsdram_apb_auto_in_prdata),
+    .auto_anon_out_7_psel    (_apbxbar_auto_anon_out_7_psel),
+    .auto_anon_out_7_penable (_apbxbar_auto_anon_out_7_penable),
+    .auto_anon_out_7_pwrite  (_apbxbar_auto_anon_out_7_pwrite),
+    .auto_anon_out_7_paddr   (_apbxbar_auto_anon_out_7_paddr),
+    .auto_anon_out_7_pwdata  (_apbxbar_auto_anon_out_7_pwdata),
+    .auto_anon_out_7_pready  (_lbitnet_auto_in_pready),
+    .auto_anon_out_7_prdata  (_lbitnet_auto_in_prdata),
     .auto_anon_out_6_psel    (_apbxbar_auto_anon_out_6_psel),
     .auto_anon_out_6_penable (_apbxbar_auto_anon_out_6_penable),
     .auto_anon_out_6_pwrite  (_apbxbar_auto_anon_out_6_pwrite),
     .auto_anon_out_6_paddr   (_apbxbar_auto_anon_out_6_paddr),
-    .auto_anon_out_6_pprot   (_apbxbar_auto_anon_out_6_pprot),
     .auto_anon_out_6_pwdata  (_apbxbar_auto_anon_out_6_pwdata),
-    .auto_anon_out_6_pstrb   (_apbxbar_auto_anon_out_6_pstrb),
-    .auto_anon_out_6_pready  (_lsdram_apb_auto_in_pready),
-    .auto_anon_out_6_pslverr (_lsdram_apb_auto_in_pslverr),
-    .auto_anon_out_6_prdata  (_lsdram_apb_auto_in_prdata),
+    .auto_anon_out_6_pready  (_lcompact_auto_in_pready),
+    .auto_anon_out_6_prdata  (_lcompact_auto_in_prdata),
     .auto_anon_out_5_psel    (_apbxbar_auto_anon_out_5_psel),
     .auto_anon_out_5_penable (_apbxbar_auto_anon_out_5_penable),
     .auto_anon_out_5_pwrite  (_apbxbar_auto_anon_out_5_pwrite),
@@ -4208,16 +4810,38 @@ module ysyxSoCASIC(
     .auto_in_rdata  (_axi4ram_auto_in_rdata),
     .auto_in_rresp  (_axi4ram_auto_in_rresp)
   );
+  APBCompactAccel lcompact (
+    .clock           (clock),
+    .reset           (reset),
+    .auto_in_psel    (_apbxbar_auto_anon_out_6_psel),
+    .auto_in_penable (_apbxbar_auto_anon_out_6_penable),
+    .auto_in_pwrite  (_apbxbar_auto_anon_out_6_pwrite),
+    .auto_in_paddr   (_apbxbar_auto_anon_out_6_paddr),
+    .auto_in_pwdata  (_apbxbar_auto_anon_out_6_pwdata),
+    .auto_in_pready  (_lcompact_auto_in_pready),
+    .auto_in_prdata  (_lcompact_auto_in_prdata)
+  );
+  APBBitNetAccel lbitnet (
+    .clock           (clock),
+    .reset           (reset),
+    .auto_in_psel    (_apbxbar_auto_anon_out_7_psel),
+    .auto_in_penable (_apbxbar_auto_anon_out_7_penable),
+    .auto_in_pwrite  (_apbxbar_auto_anon_out_7_pwrite),
+    .auto_in_paddr   (_apbxbar_auto_anon_out_7_paddr),
+    .auto_in_pwdata  (_apbxbar_auto_anon_out_7_pwdata),
+    .auto_in_pready  (_lbitnet_auto_in_pready),
+    .auto_in_prdata  (_lbitnet_auto_in_prdata)
+  );
   APBSDRAM lsdram_apb (
     .clock            (clock),
     .reset            (reset),
-    .auto_in_psel     (_apbxbar_auto_anon_out_6_psel),
-    .auto_in_penable  (_apbxbar_auto_anon_out_6_penable),
-    .auto_in_pwrite   (_apbxbar_auto_anon_out_6_pwrite),
-    .auto_in_paddr    (_apbxbar_auto_anon_out_6_paddr),
-    .auto_in_pprot    (_apbxbar_auto_anon_out_6_pprot),
-    .auto_in_pwdata   (_apbxbar_auto_anon_out_6_pwdata),
-    .auto_in_pstrb    (_apbxbar_auto_anon_out_6_pstrb),
+    .auto_in_psel     (_apbxbar_auto_anon_out_8_psel),
+    .auto_in_penable  (_apbxbar_auto_anon_out_8_penable),
+    .auto_in_pwrite   (_apbxbar_auto_anon_out_8_pwrite),
+    .auto_in_paddr    (_apbxbar_auto_anon_out_8_paddr),
+    .auto_in_pprot    (_apbxbar_auto_anon_out_8_pprot),
+    .auto_in_pwdata   (_apbxbar_auto_anon_out_8_pwdata),
+    .auto_in_pstrb    (_apbxbar_auto_anon_out_8_pstrb),
     .auto_in_pready   (_lsdram_apb_auto_in_pready),
     .auto_in_pslverr  (_lsdram_apb_auto_in_pslverr),
     .auto_in_prdata   (_lsdram_apb_auto_in_prdata),
