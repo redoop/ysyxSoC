@@ -206,6 +206,9 @@ class PostSynthesisSimulator:
                 print("警告/错误:")
                 print(result.stderr)
             
+            # 保存报告
+            self._save_simulation_report(netlist_type, result.stdout, result.stderr, result.returncode)
+            
             if result.returncode == 0:
                 print("✓ 仿真成功")
                 return True
@@ -214,6 +217,7 @@ class PostSynthesisSimulator:
                 return False
         except subprocess.TimeoutExpired:
             print("⚠ 仿真超时（30秒）- 这可能是正常的，设计可能在持续运行")
+            self._save_simulation_report(netlist_type, "仿真超时", "", -1, timeout=True)
             return True
         except Exception as e:
             print(f"❌ 仿真失败: {e}")
@@ -264,6 +268,48 @@ endmodule
         with open(tb_file, 'w') as f:
             f.write(tb_content)
         print(f"✓ 创建测试平台: {tb_file}")
+    
+    def _save_simulation_report(self, netlist_type, stdout, stderr, returncode, timeout=False):
+        """保存仿真报告"""
+        report_file = self.sim_dir / "post_syn_report.txt"
+        
+        with open(report_file, 'w', encoding='utf-8') as f:
+            f.write("=" * 60 + "\n")
+            f.write("逻辑综合后网表仿真报告\n")
+            f.write("=" * 60 + "\n")
+            f.write(f"设计: {self.design_name}\n")
+            f.write(f"网表类型: {netlist_type}\n")
+            f.write(f"时间: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
+            f.write("=" * 60 + "\n\n")
+            
+            if timeout:
+                f.write("状态: 仿真超时（可能正常运行中）\n\n")
+            else:
+                f.write(f"状态: {'成功' if returncode == 0 else '失败'}\n")
+                f.write(f"返回码: {returncode}\n\n")
+            
+            f.write("仿真输出:\n")
+            f.write("-" * 60 + "\n")
+            f.write(stdout)
+            f.write("\n")
+            
+            if stderr:
+                f.write("\n警告/错误:\n")
+                f.write("-" * 60 + "\n")
+                f.write(stderr)
+                f.write("\n")
+            
+            # 添加波形文件信息
+            wave_files = list(self.wave_dir.glob("*.vcd"))
+            if wave_files:
+                f.write("\n波形文件:\n")
+                f.write("-" * 60 + "\n")
+                for wf in wave_files:
+                    size_mb = wf.stat().st_size / (1024 * 1024)
+                    f.write(f"  {wf.name}: {size_mb:.1f} MB\n")
+        
+        print(f"✓ 报告已保存: {report_file}")
+
     
     def run_verilator_simulation(self):
         """使用 Verilator 运行仿真"""
