@@ -21,6 +21,19 @@ $(V_FILE_FINAL): $(SCALA_FILES)
 
 verilog: $(V_FILE_FINAL)
 
+export-minimal: build/ysyxSoCMinimal.v
+	@echo "Exporting ysyxSoCMinimal synthesis files..."
+	@rm -rf export/ysyxSoCMinimal_synthesis
+	@mkdir -p export/ysyxSoCMinimal_synthesis
+	@cp rtl/picorv32.v export/ysyxSoCMinimal_synthesis/
+	@cp rtl/ysyx_00000001.v export/ysyxSoCMinimal_synthesis/
+	@cp perip/amba/apb_delayer.v export/ysyxSoCMinimal_synthesis/
+	@cp perip/uart16550/rtl/*.v export/ysyxSoCMinimal_synthesis/
+	@cp build/ysyxSoCMinimal.v export/ysyxSoCMinimal_synthesis/
+	@cp scripts/remove_assertions.py export/ysyxSoCMinimal_synthesis/
+	@python3 scripts/remove_assertions.py export/ysyxSoCMinimal_synthesis/ysyxSoCMinimal.v
+	@echo "✓ Exported to export/ysyxSoCMinimal_synthesis/"
+
 clean:
 	-rm -rf build/
 
@@ -28,4 +41,4 @@ dev-init:
 	git submodule update --init --recursive
 	cd rocket-chip && git apply ../patch/rocket-chip.patch
 
-.PHONY: verilog clean dev-init
+.PHONY: verilog export-minimal clean dev-init

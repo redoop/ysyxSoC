@@ -1,0 +1,15 @@
+==========================================
+ysyxSoC 设计验证 - Verilator + Hello
+==========================================
+
+1. 检查必要文件...
+✓ 找到 Verilog 文件: /opt/github/riscv-ai-accelerator/ecos/ysyxSoC/build/ysyxSoCFull.v
+✓ 找到测试程序: /opt/github/riscv-ai-accelerator/ecos/ysyxSoC/ready-to-run/D-stage/hello-minirv-ysyxsoc.bin
+
+2. 创建 C++ 测试台...
+✓ C++ 测试台创建完成: tb_hello.cpp
+
+3. 使用 Verilator 编译...
+   (这可能需要几分钟...)
+%Error: Specified --top-module 'ysyxSoCFull' isn't at the top level, it's under another cell 'ysyxSoCTop'
+%Error: Exiting due to 1 error(s)
