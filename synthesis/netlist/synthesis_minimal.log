@@ -980,8 +980,8 @@ Creating decoders for process `\uart_tfifo.$proc$../perip/uart16550/rtl/uart_tfi
 Creating decoders for process `\uart_tfifo.$proc$../perip/uart16550/rtl/uart_tfifo.v:231$960'.
      1/1: $0\overrun[0:0]
 Creating decoders for process `\uart_tfifo.$proc$../perip/uart16550/rtl/uart_tfifo.v:198$951'.
-     1/5: $write$0x555561587a80:224$959_EN
-     2/5: $write$0x555561587a80:214$954_EN
+     1/5: $write$0x555580e5ca80:224$959_EN
+     2/5: $write$0x555580e5ca80:214$954_EN
      3/5: $0\bottom[3:0]
      4/5: $0\count[4:0]
      5/5: $0\top[3:0]
@@ -9359,8 +9359,8 @@ ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX3H7L".
 ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX4H7L".
 ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX6H7L".
 ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX8H7L".
-ABC: Library "ics55_LLSC_H7CL_typ_tt_1p2_25" from "/opt/github/riscv-ai-accelerator/chisel/synthesis/pdk/icsprout55-pdk/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib" has 600 cells (147 skipped: 111 seq; 22 tri-state; 14 no func; 0 dont_use; 0 with 2 outputs; 0 with 3+ outputs).  Time =     0.82 sec
-ABC: Memory =  135.91 MB. Time =     0.82 sec
+ABC: Library "ics55_LLSC_H7CL_typ_tt_1p2_25" from "/opt/github/riscv-ai-accelerator/chisel/synthesis/pdk/icsprout55-pdk/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib" has 600 cells (147 skipped: 111 seq; 22 tri-state; 14 no func; 0 dont_use; 0 with 2 outputs; 0 with 3+ outputs).  Time =     0.80 sec
+ABC: Memory =  135.91 MB. Time =     0.80 sec
 ABC: Warning: Detected 6 multi-output cells (for example, "ADDFX1H7L").
 ABC: + strash 
 ABC: + &get -n 
@@ -9405,7 +9405,7 @@ ABC: abc 01> empty
 ABC: abc 01> source <abc-temp-dir>/abc.script
 ABC: + read_blif <abc-temp-dir>/input.blif 
 ABC: + read_lib -w /opt/github/riscv-ai-accelerator/chisel/synthesis/pdk/icsprout55-pdk/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib 
-ABC: Parsing finished successfully.  Parsing time =     0.54 sec
+ABC: Parsing finished successfully.  Parsing time =     0.55 sec
 ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX1H7L".
 ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX2H7L".
 ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX3H7L".
@@ -9654,7 +9654,7 @@ ABC: abc 01> empty
 ABC: abc 01> source <abc-temp-dir>/abc.script
 ABC: + read_blif <abc-temp-dir>/input.blif 
 ABC: + read_lib -w /opt/github/riscv-ai-accelerator/chisel/synthesis/pdk/icsprout55-pdk/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib 
-ABC: Parsing finished successfully.  Parsing time =     0.56 sec
+ABC: Parsing finished successfully.  Parsing time =     0.54 sec
 ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX1H7L".
 ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX2H7L".
 ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX3H7L".
@@ -9802,8 +9802,8 @@ ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX3H7L".
 ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX4H7L".
 ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX6H7L".
 ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX8H7L".
-ABC: Library "ics55_LLSC_H7CL_typ_tt_1p2_25" from "/opt/github/riscv-ai-accelerator/chisel/synthesis/pdk/icsprout55-pdk/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib" has 600 cells (147 skipped: 111 seq; 22 tri-state; 14 no func; 0 dont_use; 0 with 2 outputs; 0 with 3+ outputs).  Time =     0.83 sec
-ABC: Memory =  135.91 MB. Time =     0.83 sec
+ABC: Library "ics55_LLSC_H7CL_typ_tt_1p2_25" from "/opt/github/riscv-ai-accelerator/chisel/synthesis/pdk/icsprout55-pdk/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib" has 600 cells (147 skipped: 111 seq; 22 tri-state; 14 no func; 0 dont_use; 0 with 2 outputs; 0 with 3+ outputs).  Time =     0.81 sec
+ABC: Memory =  135.91 MB. Time =     0.81 sec
 ABC: Warning: Detected 6 multi-output cells (for example, "ADDFX1H7L").
 ABC: + strash 
 ABC: + &get -n 
@@ -9880,7 +9880,7 @@ ABC: abc 01> empty
 ABC: abc 01> source <abc-temp-dir>/abc.script
 ABC: + read_blif <abc-temp-dir>/input.blif 
 ABC: + read_lib -w /opt/github/riscv-ai-accelerator/chisel/synthesis/pdk/icsprout55-pdk/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib 
-ABC: Parsing finished successfully.  Parsing time =     0.56 sec
+ABC: Parsing finished successfully.  Parsing time =     0.53 sec
 ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX1H7L".
 ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX2H7L".
 ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX3H7L".
@@ -10028,8 +10028,8 @@ ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX3H7L".
 ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX4H7L".
 ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX6H7L".
 ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX8H7L".
-ABC: Library "ics55_LLSC_H7CL_typ_tt_1p2_25" from "/opt/github/riscv-ai-accelerator/chisel/synthesis/pdk/icsprout55-pdk/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib" has 600 cells (147 skipped: 111 seq; 22 tri-state; 14 no func; 0 dont_use; 0 with 2 outputs; 0 with 3+ outputs).  Time =     0.82 sec
-ABC: Memory =  135.91 MB. Time =     0.82 sec
+ABC: Library "ics55_LLSC_H7CL_typ_tt_1p2_25" from "/opt/github/riscv-ai-accelerator/chisel/synthesis/pdk/icsprout55-pdk/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib" has 600 cells (147 skipped: 111 seq; 22 tri-state; 14 no func; 0 dont_use; 0 with 2 outputs; 0 with 3+ outputs).  Time =     0.80 sec
+ABC: Memory =  135.91 MB. Time =     0.80 sec
 ABC: Warning: Detected 6 multi-output cells (for example, "ADDFX1H7L").
 ABC: + strash 
 ABC: + &get -n 
@@ -10256,7 +10256,7 @@ ABC: abc 01> empty
 ABC: abc 01> source <abc-temp-dir>/abc.script
 ABC: + read_blif <abc-temp-dir>/input.blif 
 ABC: + read_lib -w /opt/github/riscv-ai-accelerator/chisel/synthesis/pdk/icsprout55-pdk/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib 
-ABC: Parsing finished successfully.  Parsing time =     0.53 sec
+ABC: Parsing finished successfully.  Parsing time =     0.55 sec
 ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX1H7L".
 ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX2H7L".
 ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX3H7L".
@@ -10404,8 +10404,8 @@ ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX3H7L".
 ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX4H7L".
 ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX6H7L".
 ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX8H7L".
-ABC: Library "ics55_LLSC_H7CL_typ_tt_1p2_25" from "/opt/github/riscv-ai-accelerator/chisel/synthesis/pdk/icsprout55-pdk/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib" has 600 cells (147 skipped: 111 seq; 22 tri-state; 14 no func; 0 dont_use; 0 with 2 outputs; 0 with 3+ outputs).  Time =     0.79 sec
-ABC: Memory =  135.91 MB. Time =     0.79 sec
+ABC: Library "ics55_LLSC_H7CL_typ_tt_1p2_25" from "/opt/github/riscv-ai-accelerator/chisel/synthesis/pdk/icsprout55-pdk/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib" has 600 cells (147 skipped: 111 seq; 22 tri-state; 14 no func; 0 dont_use; 0 with 2 outputs; 0 with 3+ outputs).  Time =     0.82 sec
+ABC: Memory =  135.91 MB. Time =     0.82 sec
 ABC: Warning: Detected 6 multi-output cells (for example, "ADDFX1H7L").
 ABC: + strash 
 ABC: + &get -n 
@@ -10446,7 +10446,7 @@ ABC: abc 01> empty
 ABC: abc 01> source <abc-temp-dir>/abc.script
 ABC: + read_blif <abc-temp-dir>/input.blif 
 ABC: + read_lib -w /opt/github/riscv-ai-accelerator/chisel/synthesis/pdk/icsprout55-pdk/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib 
-ABC: Parsing finished successfully.  Parsing time =     0.54 sec
+ABC: Parsing finished successfully.  Parsing time =     0.55 sec
 ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX1H7L".
 ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX2H7L".
 ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX3H7L".
@@ -10594,8 +10594,8 @@ ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX3H7L".
 ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX4H7L".
 ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX6H7L".
 ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX8H7L".
-ABC: Library "ics55_LLSC_H7CL_typ_tt_1p2_25" from "/opt/github/riscv-ai-accelerator/chisel/synthesis/pdk/icsprout55-pdk/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib" has 600 cells (147 skipped: 111 seq; 22 tri-state; 14 no func; 0 dont_use; 0 with 2 outputs; 0 with 3+ outputs).  Time =     0.80 sec
-ABC: Memory =  135.91 MB. Time =     0.80 sec
+ABC: Library "ics55_LLSC_H7CL_typ_tt_1p2_25" from "/opt/github/riscv-ai-accelerator/chisel/synthesis/pdk/icsprout55-pdk/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib" has 600 cells (147 skipped: 111 seq; 22 tri-state; 14 no func; 0 dont_use; 0 with 2 outputs; 0 with 3+ outputs).  Time =     0.82 sec
+ABC: Memory =  135.91 MB. Time =     0.82 sec
 ABC: Warning: Detected 6 multi-output cells (for example, "ADDFX1H7L").
 ABC: + strash 
 ABC: + &get -n 
@@ -10798,8 +10798,8 @@ ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX3H7L".
 ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX4H7L".
 ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX6H7L".
 ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX8H7L".
-ABC: Library "ics55_LLSC_H7CL_typ_tt_1p2_25" from "/opt/github/riscv-ai-accelerator/chisel/synthesis/pdk/icsprout55-pdk/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib" has 600 cells (147 skipped: 111 seq; 22 tri-state; 14 no func; 0 dont_use; 0 with 2 outputs; 0 with 3+ outputs).  Time =     0.79 sec
-ABC: Memory =  135.91 MB. Time =     0.79 sec
+ABC: Library "ics55_LLSC_H7CL_typ_tt_1p2_25" from "/opt/github/riscv-ai-accelerator/chisel/synthesis/pdk/icsprout55-pdk/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib" has 600 cells (147 skipped: 111 seq; 22 tri-state; 14 no func; 0 dont_use; 0 with 2 outputs; 0 with 3+ outputs).  Time =     0.80 sec
+ABC: Memory =  135.91 MB. Time =     0.80 sec
 ABC: Warning: Detected 6 multi-output cells (for example, "ADDFX1H7L").
 ABC: + strash 
 ABC: + &get -n 
@@ -11023,8 +11023,8 @@ ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX3H7L".
 ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX4H7L".
 ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX6H7L".
 ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX8H7L".
-ABC: Library "ics55_LLSC_H7CL_typ_tt_1p2_25" from "/opt/github/riscv-ai-accelerator/chisel/synthesis/pdk/icsprout55-pdk/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib" has 600 cells (147 skipped: 111 seq; 22 tri-state; 14 no func; 0 dont_use; 0 with 2 outputs; 0 with 3+ outputs).  Time =     0.80 sec
-ABC: Memory =  135.91 MB. Time =     0.80 sec
+ABC: Library "ics55_LLSC_H7CL_typ_tt_1p2_25" from "/opt/github/riscv-ai-accelerator/chisel/synthesis/pdk/icsprout55-pdk/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib" has 600 cells (147 skipped: 111 seq; 22 tri-state; 14 no func; 0 dont_use; 0 with 2 outputs; 0 with 3+ outputs).  Time =     0.79 sec
+ABC: Memory =  135.91 MB. Time =     0.79 sec
 ABC: Warning: Detected 6 multi-output cells (for example, "ADDFX1H7L").
 ABC: + strash 
 ABC: + &get -n 
@@ -11271,204 +11271,7 @@ ABC: abc 01> empty
 ABC: abc 01> source <abc-temp-dir>/abc.script
 ABC: + read_blif <abc-temp-dir>/input.blif 
 ABC: + read_lib -w /opt/github/riscv-ai-accelerator/chisel/synthesis/pdk/icsprout55-pdk/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib 
-ABC: Parsing finished successfully.  Parsing time =     0.53 sec
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX3H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNRX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNRX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNRX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNRX4H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNSRX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNSRX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNSRX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNSX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNSX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNSX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNX3H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFQX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFQX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFQX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFQX3H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRQNX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRQNX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRQX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRQX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRQX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRX3H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSQNX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSQNX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSQX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSQX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSRQX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSRQX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSRX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSRX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSRX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFTRQX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFTRQX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFTRQX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFX3H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "ESDFFQX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "ESDFFQX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "ESDFFQX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped cell "FILLCAP16H7L" without logic function.
-ABC: Scl_LibertyReadGenlib() skipped cell "FILLCAP32H7L" without logic function.
-ABC: Scl_LibertyReadGenlib() skipped cell "FILLCAP4H7L" without logic function.
-ABC: Scl_LibertyReadGenlib() skipped cell "FILLCAP8H7L" without logic function.
-ABC: Scl_LibertyReadGenlib() skipped cell "ICGNX0P5H7L" without logic function.
-ABC: Scl_LibertyReadGenlib() skipped cell "ICGNX1H7L" without logic function.
-ABC: Scl_LibertyReadGenlib() skipped cell "ICGNX2H7L" without logic function.
-ABC: Scl_LibertyReadGenlib() skipped cell "ICGNX3H7L" without logic function.
-ABC: Scl_LibertyReadGenlib() skipped cell "ICGNX4H7L" without logic function.
-ABC: Scl_LibertyReadGenlib() skipped cell "ICGX0P5H7L" without logic function.
-ABC: Scl_LibertyReadGenlib() skipped cell "ICGX1H7L" without logic function.
-ABC: Scl_LibertyReadGenlib() skipped cell "ICGX2H7L" without logic function.
-ABC: Scl_LibertyReadGenlib() skipped cell "ICGX3H7L" without logic function.
-ABC: Scl_LibertyReadGenlib() skipped cell "ICGX4H7L" without logic function.
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHRX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHRX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHRX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHSRX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHSRX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHSRX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHSX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHSX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHSX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHX3H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHX4H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLRX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLRX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLRX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLSRX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLSRX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLSRX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLSX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLSX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLSX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLX3H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLX4H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNRX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNRX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNRX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNRX3H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNSX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNSX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNSX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFQX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFQX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFQX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFQX3H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFRQX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFRQX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFRQX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSRQX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSRQX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSRX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSRX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSRX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFTRQX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFTRQX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFTRQX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFTRQX3H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFX3H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX0P7H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX12H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX16H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX1P4H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX3H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX4H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX6H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX8H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX0P7H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX12H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX16H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX1P4H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX3H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX4H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX6H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX8H7L".
-ABC: Library "ics55_LLSC_H7CL_typ_tt_1p2_25" from "/opt/github/riscv-ai-accelerator/chisel/synthesis/pdk/icsprout55-pdk/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib" has 600 cells (147 skipped: 111 seq; 22 tri-state; 14 no func; 0 dont_use; 0 with 2 outputs; 0 with 3+ outputs).  Time =     0.79 sec
-ABC: Memory =  135.91 MB. Time =     0.79 sec
-ABC: Warning: Detected 6 multi-output cells (for example, "ADDFX1H7L").
-ABC: + strash 
-ABC: + &get -n 
-ABC: + &fraig -x 
-ABC: + &put 
-ABC: + scorr 
-ABC: Warning: The network is combinational (run "fraig" or "fraig_sweep").
-ABC: + dc2 
-ABC: + dretime 
-ABC: + retime -o -D 10000 
-ABC: + strash 
-ABC: + &get -n 
-ABC: + &dch -f 
-ABC: + &nf -D 10000 
-ABC: + &put 
-ABC: + write_blif <abc-temp-dir>/output.blif 
-
-25.13.2. Re-integrating ABC results.
-ABC RESULTS:       AND3X0P5H7L cells:        1
-ABC RESULTS:      AOI22X0P5H7L cells:        3
-ABC RESULTS:      AOI31X0P5H7L cells:        4
-ABC RESULTS:        INVX0P5H7L cells:        4
-ABC RESULTS:       MUX4X0P5H7L cells:       16
-ABC RESULTS:     NAND2BX0P5H7L cells:       13
-ABC RESULTS:      NAND2X0P5H7L cells:       11
-ABC RESULTS:      NAND3X0P5H7L cells:        4
-ABC RESULTS:     NAND4BX0P5H7L cells:        6
-ABC RESULTS:      NAND4X0P5H7L cells:        4
-ABC RESULTS:        NOR2BX1H7L cells:       18
-ABC RESULTS:       NOR2X0P5H7L cells:       53
-ABC RESULTS:       NOR3X0P5H7L cells:        4
-ABC RESULTS:        OR4X0P5H7L cells:        2
-ABC RESULTS:        internal signals:      258
-ABC RESULTS:           input signals:       89
-ABC RESULTS:          output signals:       70
-Removing temp directory.
-
-25.14. Extracting gate netlist of module `\AXI4Xbar' to `<abc-temp-dir>/input.blif'..
-
-25.14.1. Executed ABC.
-Extracted 240 gates and 365 wires to a netlist network with 123 inputs and 74 outputs.
-Running ABC script: <abc-temp-dir>/abc.script
-ABC: UC Berkeley, ABC 1.01 (compiled Nov  6 2025 02:37:05)
-ABC: abc 01> empty
-ABC: abc 01> source <abc-temp-dir>/abc.script
-ABC: + read_blif <abc-temp-dir>/input.blif 
-ABC: + read_lib -w /opt/github/riscv-ai-accelerator/chisel/synthesis/pdk/icsprout55-pdk/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib 
-ABC: Parsing finished successfully.  Parsing time =     0.53 sec
+ABC: Parsing finished successfully.  Parsing time =     0.54 sec
 ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX1H7L".
 ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX2H7L".
 ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX3H7L".
@@ -11635,6 +11438,203 @@ ABC: + &nf -D 10000
 ABC: + &put 
 ABC: + write_blif <abc-temp-dir>/output.blif 
 
+25.13.2. Re-integrating ABC results.
+ABC RESULTS:       AND3X0P5H7L cells:        1
+ABC RESULTS:      AOI22X0P5H7L cells:        3
+ABC RESULTS:      AOI31X0P5H7L cells:        4
+ABC RESULTS:        INVX0P5H7L cells:        4
+ABC RESULTS:       MUX4X0P5H7L cells:       16
+ABC RESULTS:     NAND2BX0P5H7L cells:       13
+ABC RESULTS:      NAND2X0P5H7L cells:       11
+ABC RESULTS:      NAND3X0P5H7L cells:        4
+ABC RESULTS:     NAND4BX0P5H7L cells:        6
+ABC RESULTS:      NAND4X0P5H7L cells:        4
+ABC RESULTS:        NOR2BX1H7L cells:       18
+ABC RESULTS:       NOR2X0P5H7L cells:       53
+ABC RESULTS:       NOR3X0P5H7L cells:        4
+ABC RESULTS:        OR4X0P5H7L cells:        2
+ABC RESULTS:        internal signals:      258
+ABC RESULTS:           input signals:       89
+ABC RESULTS:          output signals:       70
+Removing temp directory.
+
+25.14. Extracting gate netlist of module `\AXI4Xbar' to `<abc-temp-dir>/input.blif'..
+
+25.14.1. Executed ABC.
+Extracted 240 gates and 365 wires to a netlist network with 123 inputs and 74 outputs.
+Running ABC script: <abc-temp-dir>/abc.script
+ABC: UC Berkeley, ABC 1.01 (compiled Nov  6 2025 02:37:05)
+ABC: abc 01> empty
+ABC: abc 01> source <abc-temp-dir>/abc.script
+ABC: + read_blif <abc-temp-dir>/input.blif 
+ABC: + read_lib -w /opt/github/riscv-ai-accelerator/chisel/synthesis/pdk/icsprout55-pdk/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib 
+ABC: Parsing finished successfully.  Parsing time =     0.56 sec
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX3H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNRX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNRX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNRX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNRX4H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNSRX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNSRX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNSRX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNSX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNSX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNSX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNX3H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFQX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFQX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFQX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFQX3H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRQNX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRQNX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRQX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRQX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRQX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRX3H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSQNX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSQNX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSQX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSQX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSRQX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSRQX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSRX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSRX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSRX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFTRQX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFTRQX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFTRQX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFX3H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "ESDFFQX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "ESDFFQX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "ESDFFQX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped cell "FILLCAP16H7L" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "FILLCAP32H7L" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "FILLCAP4H7L" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "FILLCAP8H7L" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "ICGNX0P5H7L" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "ICGNX1H7L" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "ICGNX2H7L" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "ICGNX3H7L" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "ICGNX4H7L" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "ICGX0P5H7L" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "ICGX1H7L" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "ICGX2H7L" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "ICGX3H7L" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "ICGX4H7L" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHRX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHRX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHRX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHSRX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHSRX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHSRX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHSX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHSX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHSX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHX3H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHX4H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLRX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLRX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLRX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLSRX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLSRX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLSRX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLSX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLSX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLSX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLX3H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLX4H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNRX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNRX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNRX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNRX3H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNSX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNSX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNSX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFQX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFQX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFQX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFQX3H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFRQX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFRQX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFRQX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSRQX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSRQX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSRX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSRX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSRX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFTRQX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFTRQX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFTRQX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFTRQX3H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFX3H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX0P7H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX12H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX16H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX1P4H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX3H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX4H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX6H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX8H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX0P7H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX12H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX16H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX1P4H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX3H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX4H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX6H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX8H7L".
+ABC: Library "ics55_LLSC_H7CL_typ_tt_1p2_25" from "/opt/github/riscv-ai-accelerator/chisel/synthesis/pdk/icsprout55-pdk/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib" has 600 cells (147 skipped: 111 seq; 22 tri-state; 14 no func; 0 dont_use; 0 with 2 outputs; 0 with 3+ outputs).  Time =     0.83 sec
+ABC: Memory =  135.91 MB. Time =     0.83 sec
+ABC: Warning: Detected 6 multi-output cells (for example, "ADDFX1H7L").
+ABC: + strash 
+ABC: + &get -n 
+ABC: + &fraig -x 
+ABC: + &put 
+ABC: + scorr 
+ABC: Warning: The network is combinational (run "fraig" or "fraig_sweep").
+ABC: + dc2 
+ABC: + dretime 
+ABC: + retime -o -D 10000 
+ABC: + strash 
+ABC: + &get -n 
+ABC: + &dch -f 
+ABC: + &nf -D 10000 
+ABC: + &put 
+ABC: + write_blif <abc-temp-dir>/output.blif 
+
 25.14.2. Re-integrating ABC results.
 ABC RESULTS:       AND2X0P5H7L cells:        5
 ABC RESULTS:       AO21X0P5H7L cells:        1
@@ -11677,7 +11677,7 @@ ABC: abc 01> empty
 ABC: abc 01> source <abc-temp-dir>/abc.script
 ABC: + read_blif <abc-temp-dir>/input.blif 
 ABC: + read_lib -w /opt/github/riscv-ai-accelerator/chisel/synthesis/pdk/icsprout55-pdk/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib 
-ABC: Parsing finished successfully.  Parsing time =     0.53 sec
+ABC: Parsing finished successfully.  Parsing time =     0.54 sec
 ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX1H7L".
 ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX2H7L".
 ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX3H7L".
@@ -11865,194 +11865,6 @@ ABC: abc 01> empty
 ABC: abc 01> source <abc-temp-dir>/abc.script
 ABC: + read_blif <abc-temp-dir>/input.blif 
 ABC: + read_lib -w /opt/github/riscv-ai-accelerator/chisel/synthesis/pdk/icsprout55-pdk/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib 
-ABC: Parsing finished successfully.  Parsing time =     0.53 sec
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX3H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNRX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNRX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNRX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNRX4H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNSRX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNSRX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNSRX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNSX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNSX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNSX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNX3H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFQX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFQX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFQX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFQX3H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRQNX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRQNX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRQX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRQX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRQX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRX3H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSQNX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSQNX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSQX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSQX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSRQX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSRQX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSRX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSRX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSRX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFTRQX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFTRQX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFTRQX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFX3H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "ESDFFQX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "ESDFFQX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "ESDFFQX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped cell "FILLCAP16H7L" without logic function.
-ABC: Scl_LibertyReadGenlib() skipped cell "FILLCAP32H7L" without logic function.
-ABC: Scl_LibertyReadGenlib() skipped cell "FILLCAP4H7L" without logic function.
-ABC: Scl_LibertyReadGenlib() skipped cell "FILLCAP8H7L" without logic function.
-ABC: Scl_LibertyReadGenlib() skipped cell "ICGNX0P5H7L" without logic function.
-ABC: Scl_LibertyReadGenlib() skipped cell "ICGNX1H7L" without logic function.
-ABC: Scl_LibertyReadGenlib() skipped cell "ICGNX2H7L" without logic function.
-ABC: Scl_LibertyReadGenlib() skipped cell "ICGNX3H7L" without logic function.
-ABC: Scl_LibertyReadGenlib() skipped cell "ICGNX4H7L" without logic function.
-ABC: Scl_LibertyReadGenlib() skipped cell "ICGX0P5H7L" without logic function.
-ABC: Scl_LibertyReadGenlib() skipped cell "ICGX1H7L" without logic function.
-ABC: Scl_LibertyReadGenlib() skipped cell "ICGX2H7L" without logic function.
-ABC: Scl_LibertyReadGenlib() skipped cell "ICGX3H7L" without logic function.
-ABC: Scl_LibertyReadGenlib() skipped cell "ICGX4H7L" without logic function.
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHRX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHRX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHRX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHSRX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHSRX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHSRX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHSX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHSX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHSX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHX3H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHX4H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLRX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLRX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLRX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLSRX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLSRX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLSRX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLSX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLSX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLSX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLX3H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLX4H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNRX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNRX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNRX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNRX3H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNSX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNSX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNSX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFQX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFQX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFQX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFQX3H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFRQX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFRQX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFRQX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSRQX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSRQX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSRX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSRX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSRX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFTRQX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFTRQX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFTRQX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFTRQX3H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFX3H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX0P7H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX12H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX16H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX1P4H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX3H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX4H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX6H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX8H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX0P7H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX12H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX16H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX1P4H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX3H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX4H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX6H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX8H7L".
-ABC: Library "ics55_LLSC_H7CL_typ_tt_1p2_25" from "/opt/github/riscv-ai-accelerator/chisel/synthesis/pdk/icsprout55-pdk/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib" has 600 cells (147 skipped: 111 seq; 22 tri-state; 14 no func; 0 dont_use; 0 with 2 outputs; 0 with 3+ outputs).  Time =     0.79 sec
-ABC: Memory =  135.91 MB. Time =     0.79 sec
-ABC: Warning: Detected 6 multi-output cells (for example, "ADDFX1H7L").
-ABC: + strash 
-ABC: + &get -n 
-ABC: + &fraig -x 
-ABC: + &put 
-ABC: + scorr 
-ABC: Warning: The network is combinational (run "fraig" or "fraig_sweep").
-ABC: + dc2 
-ABC: + dretime 
-ABC: + retime -o -D 10000 
-ABC: + strash 
-ABC: + &get -n 
-ABC: + &dch -f 
-ABC: + &nf -D 10000 
-ABC: + &put 
-ABC: + write_blif <abc-temp-dir>/output.blif 
-
-25.17.2. Re-integrating ABC results.
-ABC RESULTS:        INVX0P5H7L cells:        2
-ABC RESULTS:       MUX2X0P5H7L cells:      122
-ABC RESULTS:       NOR2X0P5H7L cells:        1
-ABC RESULTS:      NOR3BX0P5H7L cells:        1
-ABC RESULTS:       NOR3X0P5H7L cells:        1
-ABC RESULTS:        internal signals:        9
-ABC RESULTS:           input signals:      126
-ABC RESULTS:          output signals:      125
-Removing temp directory.
-
-25.18. Extracting gate netlist of module `\Queue1_AXI4BundleW' to `<abc-temp-dir>/input.blif'..
-
-25.18.1. Executed ABC.
-Extracted 85 gates and 164 wires to a netlist network with 78 inputs and 77 outputs.
-Running ABC script: <abc-temp-dir>/abc.script
-ABC: UC Berkeley, ABC 1.01 (compiled Nov  6 2025 02:37:05)
-ABC: abc 01> empty
-ABC: abc 01> source <abc-temp-dir>/abc.script
-ABC: + read_blif <abc-temp-dir>/input.blif 
-ABC: + read_lib -w /opt/github/riscv-ai-accelerator/chisel/synthesis/pdk/icsprout55-pdk/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib 
 ABC: Parsing finished successfully.  Parsing time =     0.54 sec
 ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX1H7L".
 ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX2H7L".
@@ -12203,6 +12015,194 @@ ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX6H7L".
 ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX8H7L".
 ABC: Library "ics55_LLSC_H7CL_typ_tt_1p2_25" from "/opt/github/riscv-ai-accelerator/chisel/synthesis/pdk/icsprout55-pdk/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib" has 600 cells (147 skipped: 111 seq; 22 tri-state; 14 no func; 0 dont_use; 0 with 2 outputs; 0 with 3+ outputs).  Time =     0.80 sec
 ABC: Memory =  135.91 MB. Time =     0.80 sec
+ABC: Warning: Detected 6 multi-output cells (for example, "ADDFX1H7L").
+ABC: + strash 
+ABC: + &get -n 
+ABC: + &fraig -x 
+ABC: + &put 
+ABC: + scorr 
+ABC: Warning: The network is combinational (run "fraig" or "fraig_sweep").
+ABC: + dc2 
+ABC: + dretime 
+ABC: + retime -o -D 10000 
+ABC: + strash 
+ABC: + &get -n 
+ABC: + &dch -f 
+ABC: + &nf -D 10000 
+ABC: + &put 
+ABC: + write_blif <abc-temp-dir>/output.blif 
+
+25.17.2. Re-integrating ABC results.
+ABC RESULTS:        INVX0P5H7L cells:        2
+ABC RESULTS:       MUX2X0P5H7L cells:      122
+ABC RESULTS:       NOR2X0P5H7L cells:        1
+ABC RESULTS:      NOR3BX0P5H7L cells:        1
+ABC RESULTS:       NOR3X0P5H7L cells:        1
+ABC RESULTS:        internal signals:        9
+ABC RESULTS:           input signals:      126
+ABC RESULTS:          output signals:      125
+Removing temp directory.
+
+25.18. Extracting gate netlist of module `\Queue1_AXI4BundleW' to `<abc-temp-dir>/input.blif'..
+
+25.18.1. Executed ABC.
+Extracted 85 gates and 164 wires to a netlist network with 78 inputs and 77 outputs.
+Running ABC script: <abc-temp-dir>/abc.script
+ABC: UC Berkeley, ABC 1.01 (compiled Nov  6 2025 02:37:05)
+ABC: abc 01> empty
+ABC: abc 01> source <abc-temp-dir>/abc.script
+ABC: + read_blif <abc-temp-dir>/input.blif 
+ABC: + read_lib -w /opt/github/riscv-ai-accelerator/chisel/synthesis/pdk/icsprout55-pdk/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib 
+ABC: Parsing finished successfully.  Parsing time =     0.55 sec
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX3H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNRX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNRX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNRX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNRX4H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNSRX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNSRX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNSRX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNSX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNSX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNSX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNX3H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFQX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFQX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFQX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFQX3H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRQNX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRQNX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRQX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRQX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRQX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRX3H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSQNX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSQNX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSQX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSQX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSRQX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSRQX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSRX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSRX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSRX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFTRQX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFTRQX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFTRQX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFX3H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "ESDFFQX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "ESDFFQX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "ESDFFQX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped cell "FILLCAP16H7L" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "FILLCAP32H7L" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "FILLCAP4H7L" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "FILLCAP8H7L" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "ICGNX0P5H7L" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "ICGNX1H7L" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "ICGNX2H7L" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "ICGNX3H7L" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "ICGNX4H7L" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "ICGX0P5H7L" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "ICGX1H7L" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "ICGX2H7L" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "ICGX3H7L" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "ICGX4H7L" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHRX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHRX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHRX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHSRX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHSRX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHSRX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHSX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHSX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHSX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHX3H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHX4H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLRX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLRX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLRX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLSRX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLSRX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLSRX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLSX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLSX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLSX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLX3H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLX4H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNRX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNRX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNRX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNRX3H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNSX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNSX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNSX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFQX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFQX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFQX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFQX3H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFRQX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFRQX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFRQX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSRQX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSRQX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSRX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSRX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSRX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFTRQX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFTRQX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFTRQX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFTRQX3H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFX3H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX0P7H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX12H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX16H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX1P4H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX3H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX4H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX6H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX8H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX0P7H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX12H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX16H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX1P4H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX3H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX4H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX6H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX8H7L".
+ABC: Library "ics55_LLSC_H7CL_typ_tt_1p2_25" from "/opt/github/riscv-ai-accelerator/chisel/synthesis/pdk/icsprout55-pdk/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib" has 600 cells (147 skipped: 111 seq; 22 tri-state; 14 no func; 0 dont_use; 0 with 2 outputs; 0 with 3+ outputs).  Time =     0.81 sec
+ABC: Memory =  135.91 MB. Time =     0.81 sec
 ABC: Warning: Detected 6 multi-output cells (for example, "ADDFX1H7L").
 ABC: + strash 
 ABC: + &get -n 
@@ -12389,8 +12389,8 @@ ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX3H7L".
 ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX4H7L".
 ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX6H7L".
 ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX8H7L".
-ABC: Library "ics55_LLSC_H7CL_typ_tt_1p2_25" from "/opt/github/riscv-ai-accelerator/chisel/synthesis/pdk/icsprout55-pdk/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib" has 600 cells (147 skipped: 111 seq; 22 tri-state; 14 no func; 0 dont_use; 0 with 2 outputs; 0 with 3+ outputs).  Time =     0.80 sec
-ABC: Memory =  135.91 MB. Time =     0.80 sec
+ABC: Library "ics55_LLSC_H7CL_typ_tt_1p2_25" from "/opt/github/riscv-ai-accelerator/chisel/synthesis/pdk/icsprout55-pdk/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib" has 600 cells (147 skipped: 111 seq; 22 tri-state; 14 no func; 0 dont_use; 0 with 2 outputs; 0 with 3+ outputs).  Time =     0.81 sec
+ABC: Memory =  135.91 MB. Time =     0.81 sec
 ABC: Warning: Detected 6 multi-output cells (for example, "ADDFX1H7L").
 ABC: + strash 
 ABC: + &get -n 
@@ -12428,7 +12428,7 @@ ABC: abc 01> empty
 ABC: abc 01> source <abc-temp-dir>/abc.script
 ABC: + read_blif <abc-temp-dir>/input.blif 
 ABC: + read_lib -w /opt/github/riscv-ai-accelerator/chisel/synthesis/pdk/icsprout55-pdk/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib 
-ABC: Parsing finished successfully.  Parsing time =     0.54 sec
+ABC: Parsing finished successfully.  Parsing time =     0.55 sec
 ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX1H7L".
 ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX2H7L".
 ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX3H7L".
@@ -12576,8 +12576,8 @@ ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX3H7L".
 ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX4H7L".
 ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX6H7L".
 ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX8H7L".
-ABC: Library "ics55_LLSC_H7CL_typ_tt_1p2_25" from "/opt/github/riscv-ai-accelerator/chisel/synthesis/pdk/icsprout55-pdk/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib" has 600 cells (147 skipped: 111 seq; 22 tri-state; 14 no func; 0 dont_use; 0 with 2 outputs; 0 with 3+ outputs).  Time =     0.80 sec
-ABC: Memory =  135.91 MB. Time =     0.80 sec
+ABC: Library "ics55_LLSC_H7CL_typ_tt_1p2_25" from "/opt/github/riscv-ai-accelerator/chisel/synthesis/pdk/icsprout55-pdk/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib" has 600 cells (147 skipped: 111 seq; 22 tri-state; 14 no func; 0 dont_use; 0 with 2 outputs; 0 with 3+ outputs).  Time =     0.83 sec
+ABC: Memory =  135.91 MB. Time =     0.83 sec
 ABC: Warning: Detected 6 multi-output cells (for example, "ADDFX1H7L").
 ABC: + strash 
 ABC: + &get -n 
@@ -12814,7 +12814,7 @@ ABC: abc 01> empty
 ABC: abc 01> source <abc-temp-dir>/abc.script
 ABC: + read_blif <abc-temp-dir>/input.blif 
 ABC: + read_lib -w /opt/github/riscv-ai-accelerator/chisel/synthesis/pdk/icsprout55-pdk/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib 
-ABC: Parsing finished successfully.  Parsing time =     0.53 sec
+ABC: Parsing finished successfully.  Parsing time =     0.54 sec
 ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX1H7L".
 ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX2H7L".
 ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX3H7L".
@@ -12962,8 +12962,8 @@ ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX3H7L".
 ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX4H7L".
 ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX6H7L".
 ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX8H7L".
-ABC: Library "ics55_LLSC_H7CL_typ_tt_1p2_25" from "/opt/github/riscv-ai-accelerator/chisel/synthesis/pdk/icsprout55-pdk/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib" has 600 cells (147 skipped: 111 seq; 22 tri-state; 14 no func; 0 dont_use; 0 with 2 outputs; 0 with 3+ outputs).  Time =     0.79 sec
-ABC: Memory =  135.91 MB. Time =     0.79 sec
+ABC: Library "ics55_LLSC_H7CL_typ_tt_1p2_25" from "/opt/github/riscv-ai-accelerator/chisel/synthesis/pdk/icsprout55-pdk/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib" has 600 cells (147 skipped: 111 seq; 22 tri-state; 14 no func; 0 dont_use; 0 with 2 outputs; 0 with 3+ outputs).  Time =     0.82 sec
+ABC: Memory =  135.91 MB. Time =     0.82 sec
 ABC: Warning: Detected 6 multi-output cells (for example, "ADDFX1H7L").
 ABC: + strash 
 ABC: + &get -n 
@@ -13007,7 +13007,7 @@ ABC: abc 01> empty
 ABC: abc 01> source <abc-temp-dir>/abc.script
 ABC: + read_blif <abc-temp-dir>/input.blif 
 ABC: + read_lib -w /opt/github/riscv-ai-accelerator/chisel/synthesis/pdk/icsprout55-pdk/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib 
-ABC: Parsing finished successfully.  Parsing time =     0.53 sec
+ABC: Parsing finished successfully.  Parsing time =     0.54 sec
 ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX1H7L".
 ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX2H7L".
 ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX3H7L".
@@ -13155,8 +13155,8 @@ ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX3H7L".
 ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX4H7L".
 ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX6H7L".
 ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX8H7L".
-ABC: Library "ics55_LLSC_H7CL_typ_tt_1p2_25" from "/opt/github/riscv-ai-accelerator/chisel/synthesis/pdk/icsprout55-pdk/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib" has 600 cells (147 skipped: 111 seq; 22 tri-state; 14 no func; 0 dont_use; 0 with 2 outputs; 0 with 3+ outputs).  Time =     0.79 sec
-ABC: Memory =  135.91 MB. Time =     0.79 sec
+ABC: Library "ics55_LLSC_H7CL_typ_tt_1p2_25" from "/opt/github/riscv-ai-accelerator/chisel/synthesis/pdk/icsprout55-pdk/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib" has 600 cells (147 skipped: 111 seq; 22 tri-state; 14 no func; 0 dont_use; 0 with 2 outputs; 0 with 3+ outputs).  Time =     0.80 sec
+ABC: Memory =  135.91 MB. Time =     0.80 sec
 ABC: Warning: Detected 6 multi-output cells (for example, "ADDFX1H7L").
 ABC: + strash 
 ABC: + &get -n 
@@ -13200,7 +13200,7 @@ ABC: abc 01> empty
 ABC: abc 01> source <abc-temp-dir>/abc.script
 ABC: + read_blif <abc-temp-dir>/input.blif 
 ABC: + read_lib -w /opt/github/riscv-ai-accelerator/chisel/synthesis/pdk/icsprout55-pdk/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib 
-ABC: Parsing finished successfully.  Parsing time =     0.53 sec
+ABC: Parsing finished successfully.  Parsing time =     0.54 sec
 ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX1H7L".
 ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX2H7L".
 ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX3H7L".
@@ -13393,7 +13393,7 @@ ABC: abc 01> empty
 ABC: abc 01> source <abc-temp-dir>/abc.script
 ABC: + read_blif <abc-temp-dir>/input.blif 
 ABC: + read_lib -w /opt/github/riscv-ai-accelerator/chisel/synthesis/pdk/icsprout55-pdk/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib 
-ABC: Parsing finished successfully.  Parsing time =     0.54 sec
+ABC: Parsing finished successfully.  Parsing time =     0.53 sec
 ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX1H7L".
 ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX2H7L".
 ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX3H7L".
@@ -13589,7 +13589,7 @@ ABC: abc 01> empty
 ABC: abc 01> source <abc-temp-dir>/abc.script
 ABC: + read_blif <abc-temp-dir>/input.blif 
 ABC: + read_lib -w /opt/github/riscv-ai-accelerator/chisel/synthesis/pdk/icsprout55-pdk/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib 
-ABC: Parsing finished successfully.  Parsing time =     0.55 sec
+ABC: Parsing finished successfully.  Parsing time =     0.53 sec
 ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX1H7L".
 ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX2H7L".
 ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX3H7L".
@@ -13737,8 +13737,8 @@ ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX3H7L".
 ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX4H7L".
 ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX6H7L".
 ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX8H7L".
-ABC: Library "ics55_LLSC_H7CL_typ_tt_1p2_25" from "/opt/github/riscv-ai-accelerator/chisel/synthesis/pdk/icsprout55-pdk/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib" has 600 cells (147 skipped: 111 seq; 22 tri-state; 14 no func; 0 dont_use; 0 with 2 outputs; 0 with 3+ outputs).  Time =     0.81 sec
-ABC: Memory =  135.91 MB. Time =     0.81 sec
+ABC: Library "ics55_LLSC_H7CL_typ_tt_1p2_25" from "/opt/github/riscv-ai-accelerator/chisel/synthesis/pdk/icsprout55-pdk/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib" has 600 cells (147 skipped: 111 seq; 22 tri-state; 14 no func; 0 dont_use; 0 with 2 outputs; 0 with 3+ outputs).  Time =     0.79 sec
+ABC: Memory =  135.91 MB. Time =     0.79 sec
 ABC: Warning: Detected 6 multi-output cells (for example, "ADDFX1H7L").
 ABC: + strash 
 ABC: + &get -n 
@@ -13821,252 +13821,6 @@ Replacing 82 occurrences of constant undef bits with constant zero bits
 
 25.27.1. Executed ABC.
 Extracted 4504 gates and 4795 wires to a netlist network with 288 inputs and 223 outputs.
-Running ABC script: <abc-temp-dir>/abc.script
-ABC: UC Berkeley, ABC 1.01 (compiled Nov  6 2025 02:37:05)
-ABC: abc 01> empty
-ABC: abc 01> source <abc-temp-dir>/abc.script
-ABC: + read_blif <abc-temp-dir>/input.blif 
-ABC: + read_lib -w /opt/github/riscv-ai-accelerator/chisel/synthesis/pdk/icsprout55-pdk/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib 
-ABC: Parsing finished successfully.  Parsing time =     0.54 sec
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX3H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNRX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNRX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNRX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNRX4H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNSRX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNSRX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNSRX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNSX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNSX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNSX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNX3H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFQX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFQX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFQX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFQX3H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRQNX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRQNX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRQX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRQX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRQX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRX3H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSQNX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSQNX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSQX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSQX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSRQX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSRQX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSRX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSRX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSRX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFTRQX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFTRQX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFTRQX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFX3H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "ESDFFQX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "ESDFFQX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "ESDFFQX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped cell "FILLCAP16H7L" without logic function.
-ABC: Scl_LibertyReadGenlib() skipped cell "FILLCAP32H7L" without logic function.
-ABC: Scl_LibertyReadGenlib() skipped cell "FILLCAP4H7L" without logic function.
-ABC: Scl_LibertyReadGenlib() skipped cell "FILLCAP8H7L" without logic function.
-ABC: Scl_LibertyReadGenlib() skipped cell "ICGNX0P5H7L" without logic function.
-ABC: Scl_LibertyReadGenlib() skipped cell "ICGNX1H7L" without logic function.
-ABC: Scl_LibertyReadGenlib() skipped cell "ICGNX2H7L" without logic function.
-ABC: Scl_LibertyReadGenlib() skipped cell "ICGNX3H7L" without logic function.
-ABC: Scl_LibertyReadGenlib() skipped cell "ICGNX4H7L" without logic function.
-ABC: Scl_LibertyReadGenlib() skipped cell "ICGX0P5H7L" without logic function.
-ABC: Scl_LibertyReadGenlib() skipped cell "ICGX1H7L" without logic function.
-ABC: Scl_LibertyReadGenlib() skipped cell "ICGX2H7L" without logic function.
-ABC: Scl_LibertyReadGenlib() skipped cell "ICGX3H7L" without logic function.
-ABC: Scl_LibertyReadGenlib() skipped cell "ICGX4H7L" without logic function.
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHRX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHRX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHRX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHSRX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHSRX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHSRX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHSX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHSX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHSX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHX3H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHX4H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLRX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLRX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLRX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLSRX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLSRX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLSRX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLSX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLSX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLSX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLX3H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLX4H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNRX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNRX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNRX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNRX3H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNSX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNSX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNSX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFQX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFQX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFQX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFQX3H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFRQX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFRQX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFRQX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSRQX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSRQX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSRX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSRX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSRX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFTRQX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFTRQX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFTRQX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFTRQX3H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFX3H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX0P7H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX12H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX16H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX1P4H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX3H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX4H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX6H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX8H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX0P7H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX12H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX16H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX1P4H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX3H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX4H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX6H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX8H7L".
-ABC: Library "ics55_LLSC_H7CL_typ_tt_1p2_25" from "/opt/github/riscv-ai-accelerator/chisel/synthesis/pdk/icsprout55-pdk/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib" has 600 cells (147 skipped: 111 seq; 22 tri-state; 14 no func; 0 dont_use; 0 with 2 outputs; 0 with 3+ outputs).  Time =     0.80 sec
-ABC: Memory =  135.91 MB. Time =     0.80 sec
-ABC: Warning: Detected 6 multi-output cells (for example, "ADDFX1H7L").
-ABC: + strash 
-ABC: + &get -n 
-ABC: + &fraig -x 
-ABC: + &put 
-ABC: + scorr 
-ABC: Warning: The network is combinational (run "fraig" or "fraig_sweep").
-ABC: + dc2 
-ABC: + dretime 
-ABC: + retime -o -D 10000 
-ABC: + strash 
-ABC: + &get -n 
-ABC: + &dch -f 
-ABC: + &nf -D 10000 
-ABC: + &put 
-ABC: + write_blif <abc-temp-dir>/output.blif 
-
-25.27.2. Re-integrating ABC results.
-ABC RESULTS:       AND2X0P5H7L cells:       56
-ABC RESULTS:       AND3X0P5H7L cells:       38
-ABC RESULTS:       AND4X0P5H7L cells:       42
-ABC RESULTS:      AO211X0P5H7L cells:        4
-ABC RESULTS:       AO21X0P5H7L cells:       18
-ABC RESULTS:       AO22X0P5H7L cells:       30
-ABC RESULTS:       AO31X0P5H7L cells:        2
-ABC RESULTS:     AOA211X0P5H7L cells:        9
-ABC RESULTS:    AOAI211X0P5H7L cells:       28
-ABC RESULTS:     AOI211X0P5H7L cells:       17
-ABC RESULTS:     AOI21BX0P5H7L cells:        2
-ABC RESULTS:      AOI21X0P5H7L cells:      122
-ABC RESULTS:     AOI221X0P5H7L cells:       30
-ABC RESULTS:     AOI222X0P5H7L cells:        1
-ABC RESULTS:      AOI22X0P5H7L cells:      187
-ABC RESULTS:    AOI2BB1X0P5H7L cells:       68
-ABC RESULTS:    AOI2BB2X0P5H7L cells:        3
-ABC RESULTS:    AOI2XB1X0P5H7L cells:       25
-ABC RESULTS:      AOI31X0P5H7L cells:        8
-ABC RESULTS:      AOI32X0P5H7L cells:       15
-ABC RESULTS:      AOI33X0P5H7L cells:        1
-ABC RESULTS:        INVX0P5H7L cells:       36
-ABC RESULTS:     NAND2BX0P5H7L cells:      112
-ABC RESULTS:      NAND2X0P5H7L cells:      672
-ABC RESULTS:     NAND3BX0P5H7L cells:        5
-ABC RESULTS:      NAND3X0P5H7L cells:       43
-ABC RESULTS:     NAND4BX0P5H7L cells:        1
-ABC RESULTS:      NAND4X0P5H7L cells:       10
-ABC RESULTS:        NOR2BX1H7L cells:      127
-ABC RESULTS:       NOR2X0P5H7L cells:      317
-ABC RESULTS:      NOR3BX0P5H7L cells:        9
-ABC RESULTS:       NOR3X0P5H7L cells:       40
-ABC RESULTS:     NOR4BBX0P5H7L cells:        2
-ABC RESULTS:      NOR4BX0P5H7L cells:        2
-ABC RESULTS:       NOR4X0P5H7L cells:       10
-ABC RESULTS:      OA211X0P5H7L cells:        3
-ABC RESULTS:       OA21X0P5H7L cells:        6
-ABC RESULTS:       OA22X0P5H7L cells:       13
-ABC RESULTS:       OA31X0P5H7L cells:        1
-ABC RESULTS:     OAI211X0P7H7L cells:       22
-ABC RESULTS:     OAI21BX0P5H7L cells:        5
-ABC RESULTS:      OAI21X0P5H7L cells:      153
-ABC RESULTS:      OAI22X0P5H7L cells:       70
-ABC RESULTS:    OAI2BB1X0P5H7L cells:       11
-ABC RESULTS:    OAI2XB1X0P5H7L cells:       30
-ABC RESULTS:      OAI31X0P5H7L cells:        4
-ABC RESULTS:     OAO211X0P5H7L cells:        4
-ABC RESULTS:    OAOI211X0P5H7L cells:       29
-ABC RESULTS:        OR2X0P5H7L cells:       48
-ABC RESULTS:        OR3X0P5H7L cells:       37
-ABC RESULTS:        OR4X0P5H7L cells:        1
-ABC RESULTS:      XNOR2X0P5H7L cells:      362
-ABC RESULTS:      XNOR3X0P5H7L cells:       90
-ABC RESULTS:       XOR2X0P5H7L cells:      243
-ABC RESULTS:       XOR3X0P5H7L cells:       54
-ABC RESULTS:        internal signals:     4284
-ABC RESULTS:           input signals:      288
-ABC RESULTS:          output signals:      223
-Removing temp directory.
-
-25.28. Extracting gate netlist of module `\apb_delayer' to `<abc-temp-dir>/input.blif'..
-Don't call ABC as there is nothing to map.
-
-25.28.1. Executed ABC.
-Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
-Removing temp directory.
-
-25.29. Extracting gate netlist of module `\picorv32_pcpi_div' to `<abc-temp-dir>/input.blif'..
-Replacing 319 occurrences of constant undef bits with constant zero bits
-
-25.29.1. Executed ABC.
-Extracted 1959 gates and 2213 wires to a netlist network with 251 inputs and 200 outputs.
 Running ABC script: <abc-temp-dir>/abc.script
 ABC: UC Berkeley, ABC 1.01 (compiled Nov  6 2025 02:37:05)
 ABC: abc 01> empty
@@ -14240,63 +13994,79 @@ ABC: + &nf -D 10000
 ABC: + &put 
 ABC: + write_blif <abc-temp-dir>/output.blif 
 
-25.29.2. Re-integrating ABC results.
-ABC RESULTS:       AND2X0P5H7L cells:        5
-ABC RESULTS:       AND3X0P5H7L cells:        4
-ABC RESULTS:       AND4X0P5H7L cells:        6
-ABC RESULTS:       AO22X0P5H7L cells:       62
-ABC RESULTS:       AO31X0P5H7L cells:        5
-ABC RESULTS:     AOA211X0P5H7L cells:       40
-ABC RESULTS:    AOAI211X0P5H7L cells:       56
-ABC RESULTS:     AOI211X0P5H7L cells:       12
-ABC RESULTS:      AOI21X0P5H7L cells:       82
-ABC RESULTS:     AOI221X0P5H7L cells:       13
-ABC RESULTS:      AOI22X0P5H7L cells:        2
-ABC RESULTS:    AOI2BB1X0P5H7L cells:       26
-ABC RESULTS:    AOI2XB1X0P5H7L cells:        4
-ABC RESULTS:      AOI31X0P5H7L cells:       55
-ABC RESULTS:      AOI32X0P5H7L cells:        3
-ABC RESULTS:        INVX0P5H7L cells:       32
-ABC RESULTS:       MUX2X0P5H7L cells:        7
-ABC RESULTS:     NAND2BX0P5H7L cells:       51
-ABC RESULTS:      NAND2X0P5H7L cells:       43
-ABC RESULTS:     NAND3BX0P5H7L cells:        3
-ABC RESULTS:      NAND3X0P5H7L cells:        7
-ABC RESULTS:    NAND4BBX0P5H7L cells:        2
-ABC RESULTS:     NAND4BX0P5H7L cells:        4
-ABC RESULTS:      NAND4X0P5H7L cells:        3
-ABC RESULTS:        NOR2BX1H7L cells:       52
-ABC RESULTS:       NOR2X0P5H7L cells:       64
-ABC RESULTS:      NOR3BX0P5H7L cells:        7
-ABC RESULTS:       NOR3X0P5H7L cells:       10
-ABC RESULTS:      NOR4BX0P5H7L cells:       17
-ABC RESULTS:       NOR4X0P5H7L cells:       23
-ABC RESULTS:       OA21X0P5H7L cells:        8
-ABC RESULTS:       OA22X0P5H7L cells:       10
-ABC RESULTS:       OA31X0P5H7L cells:        6
-ABC RESULTS:     OAI211X0P7H7L cells:       21
-ABC RESULTS:      OAI21X0P5H7L cells:       57
-ABC RESULTS:      OAI22X0P5H7L cells:        4
-ABC RESULTS:    OAI2BB1X0P5H7L cells:        7
-ABC RESULTS:    OAI2XB1X0P5H7L cells:        2
-ABC RESULTS:      OAI31X0P5H7L cells:       14
-ABC RESULTS:      OAI32X0P5H7L cells:        1
-ABC RESULTS:     OAO211X0P5H7L cells:        1
-ABC RESULTS:    OAOI211X0P5H7L cells:       31
-ABC RESULTS:        OR2X0P5H7L cells:       21
-ABC RESULTS:        OR3X0P5H7L cells:        1
-ABC RESULTS:        OR4X0P5H7L cells:       13
-ABC RESULTS:      XNOR2X0P5H7L cells:       39
-ABC RESULTS:       XOR2X0P5H7L cells:       26
-ABC RESULTS:        internal signals:     1762
-ABC RESULTS:           input signals:      251
-ABC RESULTS:          output signals:      200
+25.27.2. Re-integrating ABC results.
+ABC RESULTS:       AND2X0P5H7L cells:       56
+ABC RESULTS:       AND3X0P5H7L cells:       38
+ABC RESULTS:       AND4X0P5H7L cells:       42
+ABC RESULTS:      AO211X0P5H7L cells:        4
+ABC RESULTS:       AO21X0P5H7L cells:       18
+ABC RESULTS:       AO22X0P5H7L cells:       30
+ABC RESULTS:       AO31X0P5H7L cells:        2
+ABC RESULTS:     AOA211X0P5H7L cells:        9
+ABC RESULTS:    AOAI211X0P5H7L cells:       28
+ABC RESULTS:     AOI211X0P5H7L cells:       17
+ABC RESULTS:     AOI21BX0P5H7L cells:        2
+ABC RESULTS:      AOI21X0P5H7L cells:      122
+ABC RESULTS:     AOI221X0P5H7L cells:       30
+ABC RESULTS:     AOI222X0P5H7L cells:        1
+ABC RESULTS:      AOI22X0P5H7L cells:      187
+ABC RESULTS:    AOI2BB1X0P5H7L cells:       68
+ABC RESULTS:    AOI2BB2X0P5H7L cells:        3
+ABC RESULTS:    AOI2XB1X0P5H7L cells:       25
+ABC RESULTS:      AOI31X0P5H7L cells:        8
+ABC RESULTS:      AOI32X0P5H7L cells:       15
+ABC RESULTS:      AOI33X0P5H7L cells:        1
+ABC RESULTS:        INVX0P5H7L cells:       36
+ABC RESULTS:     NAND2BX0P5H7L cells:      112
+ABC RESULTS:      NAND2X0P5H7L cells:      672
+ABC RESULTS:     NAND3BX0P5H7L cells:        5
+ABC RESULTS:      NAND3X0P5H7L cells:       43
+ABC RESULTS:     NAND4BX0P5H7L cells:        1
+ABC RESULTS:      NAND4X0P5H7L cells:       10
+ABC RESULTS:        NOR2BX1H7L cells:      127
+ABC RESULTS:       NOR2X0P5H7L cells:      317
+ABC RESULTS:      NOR3BX0P5H7L cells:        9
+ABC RESULTS:       NOR3X0P5H7L cells:       40
+ABC RESULTS:     NOR4BBX0P5H7L cells:        2
+ABC RESULTS:      NOR4BX0P5H7L cells:        2
+ABC RESULTS:       NOR4X0P5H7L cells:       10
+ABC RESULTS:      OA211X0P5H7L cells:        3
+ABC RESULTS:       OA21X0P5H7L cells:        6
+ABC RESULTS:       OA22X0P5H7L cells:       13
+ABC RESULTS:       OA31X0P5H7L cells:        1
+ABC RESULTS:     OAI211X0P7H7L cells:       22
+ABC RESULTS:     OAI21BX0P5H7L cells:        5
+ABC RESULTS:      OAI21X0P5H7L cells:      153
+ABC RESULTS:      OAI22X0P5H7L cells:       70
+ABC RESULTS:    OAI2BB1X0P5H7L cells:       11
+ABC RESULTS:    OAI2XB1X0P5H7L cells:       30
+ABC RESULTS:      OAI31X0P5H7L cells:        4
+ABC RESULTS:     OAO211X0P5H7L cells:        4
+ABC RESULTS:    OAOI211X0P5H7L cells:       29
+ABC RESULTS:        OR2X0P5H7L cells:       48
+ABC RESULTS:        OR3X0P5H7L cells:       37
+ABC RESULTS:        OR4X0P5H7L cells:        1
+ABC RESULTS:      XNOR2X0P5H7L cells:      362
+ABC RESULTS:      XNOR3X0P5H7L cells:       90
+ABC RESULTS:       XOR2X0P5H7L cells:      243
+ABC RESULTS:       XOR3X0P5H7L cells:       54
+ABC RESULTS:        internal signals:     4284
+ABC RESULTS:           input signals:      288
+ABC RESULTS:          output signals:      223
 Removing temp directory.
 
-25.30. Extracting gate netlist of module `\picorv32_pcpi_mul' to `<abc-temp-dir>/input.blif'..
+25.28. Extracting gate netlist of module `\apb_delayer' to `<abc-temp-dir>/input.blif'..
+Don't call ABC as there is nothing to map.
 
-25.30.1. Executed ABC.
-Extracted 1103 gates and 1442 wires to a netlist network with 337 inputs and 254 outputs.
+25.28.1. Executed ABC.
+Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
+Removing temp directory.
+
+25.29. Extracting gate netlist of module `\picorv32_pcpi_div' to `<abc-temp-dir>/input.blif'..
+Replacing 319 occurrences of constant undef bits with constant zero bits
+
+25.29.1. Executed ABC.
+Extracted 1959 gates and 2213 wires to a netlist network with 251 inputs and 200 outputs.
 Running ABC script: <abc-temp-dir>/abc.script
 ABC: UC Berkeley, ABC 1.01 (compiled Nov  6 2025 02:37:05)
 ABC: abc 01> empty
@@ -14453,6 +14223,236 @@ ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX6H7L".
 ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX8H7L".
 ABC: Library "ics55_LLSC_H7CL_typ_tt_1p2_25" from "/opt/github/riscv-ai-accelerator/chisel/synthesis/pdk/icsprout55-pdk/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib" has 600 cells (147 skipped: 111 seq; 22 tri-state; 14 no func; 0 dont_use; 0 with 2 outputs; 0 with 3+ outputs).  Time =     0.81 sec
 ABC: Memory =  135.91 MB. Time =     0.81 sec
+ABC: Warning: Detected 6 multi-output cells (for example, "ADDFX1H7L").
+ABC: + strash 
+ABC: + &get -n 
+ABC: + &fraig -x 
+ABC: + &put 
+ABC: + scorr 
+ABC: Warning: The network is combinational (run "fraig" or "fraig_sweep").
+ABC: + dc2 
+ABC: + dretime 
+ABC: + retime -o -D 10000 
+ABC: + strash 
+ABC: + &get -n 
+ABC: + &dch -f 
+ABC: + &nf -D 10000 
+ABC: + &put 
+ABC: + write_blif <abc-temp-dir>/output.blif 
+
+25.29.2. Re-integrating ABC results.
+ABC RESULTS:       AND2X0P5H7L cells:        5
+ABC RESULTS:       AND3X0P5H7L cells:        4
+ABC RESULTS:       AND4X0P5H7L cells:        6
+ABC RESULTS:       AO22X0P5H7L cells:       62
+ABC RESULTS:       AO31X0P5H7L cells:        5
+ABC RESULTS:     AOA211X0P5H7L cells:       40
+ABC RESULTS:    AOAI211X0P5H7L cells:       56
+ABC RESULTS:     AOI211X0P5H7L cells:       12
+ABC RESULTS:      AOI21X0P5H7L cells:       82
+ABC RESULTS:     AOI221X0P5H7L cells:       13
+ABC RESULTS:      AOI22X0P5H7L cells:        2
+ABC RESULTS:    AOI2BB1X0P5H7L cells:       26
+ABC RESULTS:    AOI2XB1X0P5H7L cells:        4
+ABC RESULTS:      AOI31X0P5H7L cells:       55
+ABC RESULTS:      AOI32X0P5H7L cells:        3
+ABC RESULTS:        INVX0P5H7L cells:       32
+ABC RESULTS:       MUX2X0P5H7L cells:        7
+ABC RESULTS:     NAND2BX0P5H7L cells:       51
+ABC RESULTS:      NAND2X0P5H7L cells:       43
+ABC RESULTS:     NAND3BX0P5H7L cells:        3
+ABC RESULTS:      NAND3X0P5H7L cells:        7
+ABC RESULTS:    NAND4BBX0P5H7L cells:        2
+ABC RESULTS:     NAND4BX0P5H7L cells:        4
+ABC RESULTS:      NAND4X0P5H7L cells:        3
+ABC RESULTS:        NOR2BX1H7L cells:       52
+ABC RESULTS:       NOR2X0P5H7L cells:       64
+ABC RESULTS:      NOR3BX0P5H7L cells:        7
+ABC RESULTS:       NOR3X0P5H7L cells:       10
+ABC RESULTS:      NOR4BX0P5H7L cells:       17
+ABC RESULTS:       NOR4X0P5H7L cells:       23
+ABC RESULTS:       OA21X0P5H7L cells:        8
+ABC RESULTS:       OA22X0P5H7L cells:       10
+ABC RESULTS:       OA31X0P5H7L cells:        6
+ABC RESULTS:     OAI211X0P7H7L cells:       21
+ABC RESULTS:      OAI21X0P5H7L cells:       57
+ABC RESULTS:      OAI22X0P5H7L cells:        4
+ABC RESULTS:    OAI2BB1X0P5H7L cells:        7
+ABC RESULTS:    OAI2XB1X0P5H7L cells:        2
+ABC RESULTS:      OAI31X0P5H7L cells:       14
+ABC RESULTS:      OAI32X0P5H7L cells:        1
+ABC RESULTS:     OAO211X0P5H7L cells:        1
+ABC RESULTS:    OAOI211X0P5H7L cells:       31
+ABC RESULTS:        OR2X0P5H7L cells:       21
+ABC RESULTS:        OR3X0P5H7L cells:        1
+ABC RESULTS:        OR4X0P5H7L cells:       13
+ABC RESULTS:      XNOR2X0P5H7L cells:       39
+ABC RESULTS:       XOR2X0P5H7L cells:       26
+ABC RESULTS:        internal signals:     1762
+ABC RESULTS:           input signals:      251
+ABC RESULTS:          output signals:      200
+Removing temp directory.
+
+25.30. Extracting gate netlist of module `\picorv32_pcpi_mul' to `<abc-temp-dir>/input.blif'..
+
+25.30.1. Executed ABC.
+Extracted 1103 gates and 1442 wires to a netlist network with 337 inputs and 254 outputs.
+Running ABC script: <abc-temp-dir>/abc.script
+ABC: UC Berkeley, ABC 1.01 (compiled Nov  6 2025 02:37:05)
+ABC: abc 01> empty
+ABC: abc 01> source <abc-temp-dir>/abc.script
+ABC: + read_blif <abc-temp-dir>/input.blif 
+ABC: + read_lib -w /opt/github/riscv-ai-accelerator/chisel/synthesis/pdk/icsprout55-pdk/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib 
+ABC: Parsing finished successfully.  Parsing time =     0.54 sec
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX3H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNRX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNRX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNRX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNRX4H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNSRX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNSRX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNSRX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNSX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNSX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNSX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNX3H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFQX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFQX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFQX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFQX3H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRQNX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRQNX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRQX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRQX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRQX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRX3H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSQNX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSQNX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSQX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSQX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSRQX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSRQX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSRX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSRX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSRX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFTRQX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFTRQX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFTRQX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFX3H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "ESDFFQX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "ESDFFQX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "ESDFFQX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped cell "FILLCAP16H7L" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "FILLCAP32H7L" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "FILLCAP4H7L" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "FILLCAP8H7L" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "ICGNX0P5H7L" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "ICGNX1H7L" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "ICGNX2H7L" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "ICGNX3H7L" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "ICGNX4H7L" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "ICGX0P5H7L" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "ICGX1H7L" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "ICGX2H7L" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "ICGX3H7L" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "ICGX4H7L" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHRX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHRX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHRX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHSRX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHSRX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHSRX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHSX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHSX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHSX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHX3H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHX4H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLRX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLRX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLRX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLSRX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLSRX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLSRX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLSX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLSX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLSX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLX3H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLX4H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNRX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNRX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNRX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNRX3H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNSX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNSX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNSX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFQX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFQX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFQX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFQX3H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFRQX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFRQX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFRQX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSRQX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSRQX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSRX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSRX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSRX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFTRQX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFTRQX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFTRQX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFTRQX3H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFX3H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX0P7H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX12H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX16H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX1P4H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX3H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX4H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX6H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX8H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX0P7H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX12H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX16H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX1P4H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX3H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX4H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX6H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX8H7L".
+ABC: Library "ics55_LLSC_H7CL_typ_tt_1p2_25" from "/opt/github/riscv-ai-accelerator/chisel/synthesis/pdk/icsprout55-pdk/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib" has 600 cells (147 skipped: 111 seq; 22 tri-state; 14 no func; 0 dont_use; 0 with 2 outputs; 0 with 3+ outputs).  Time =     0.80 sec
+ABC: Memory =  135.91 MB. Time =     0.80 sec
 ABC: Warning: Detected 6 multi-output cells (for example, "ADDFX1H7L").
 ABC: + strash 
 ABC: + &get -n 
@@ -14533,7 +14533,7 @@ ABC: abc 01> empty
 ABC: abc 01> source <abc-temp-dir>/abc.script
 ABC: + read_blif <abc-temp-dir>/input.blif 
 ABC: + read_lib -w /opt/github/riscv-ai-accelerator/chisel/synthesis/pdk/icsprout55-pdk/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib 
-ABC: Parsing finished successfully.  Parsing time =     0.54 sec
+ABC: Parsing finished successfully.  Parsing time =     0.55 sec
 ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX1H7L".
 ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX2H7L".
 ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX3H7L".
@@ -14681,8 +14681,8 @@ ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX3H7L".
 ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX4H7L".
 ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX6H7L".
 ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX8H7L".
-ABC: Library "ics55_LLSC_H7CL_typ_tt_1p2_25" from "/opt/github/riscv-ai-accelerator/chisel/synthesis/pdk/icsprout55-pdk/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib" has 600 cells (147 skipped: 111 seq; 22 tri-state; 14 no func; 0 dont_use; 0 with 2 outputs; 0 with 3+ outputs).  Time =     0.80 sec
-ABC: Memory =  135.91 MB. Time =     0.80 sec
+ABC: Library "ics55_LLSC_H7CL_typ_tt_1p2_25" from "/opt/github/riscv-ai-accelerator/chisel/synthesis/pdk/icsprout55-pdk/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib" has 600 cells (147 skipped: 111 seq; 22 tri-state; 14 no func; 0 dont_use; 0 with 2 outputs; 0 with 3+ outputs).  Time =     0.82 sec
+ABC: Memory =  135.91 MB. Time =     0.82 sec
 ABC: Warning: Detected 6 multi-output cells (for example, "ADDFX1H7L").
 ABC: + strash 
 ABC: + &get -n 
@@ -14721,194 +14721,6 @@ ABC: abc 01> empty
 ABC: abc 01> source <abc-temp-dir>/abc.script
 ABC: + read_blif <abc-temp-dir>/input.blif 
 ABC: + read_lib -w /opt/github/riscv-ai-accelerator/chisel/synthesis/pdk/icsprout55-pdk/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib 
-ABC: Parsing finished successfully.  Parsing time =     0.55 sec
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX3H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNRX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNRX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNRX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNRX4H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNSRX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNSRX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNSRX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNSX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNSX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNSX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNX3H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFQX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFQX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFQX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFQX3H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRQNX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRQNX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRQX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRQX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRQX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRX3H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSQNX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSQNX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSQX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSQX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSRQX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSRQX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSRX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSRX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSRX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFTRQX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFTRQX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFTRQX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFX3H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "ESDFFQX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "ESDFFQX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "ESDFFQX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped cell "FILLCAP16H7L" without logic function.
-ABC: Scl_LibertyReadGenlib() skipped cell "FILLCAP32H7L" without logic function.
-ABC: Scl_LibertyReadGenlib() skipped cell "FILLCAP4H7L" without logic function.
-ABC: Scl_LibertyReadGenlib() skipped cell "FILLCAP8H7L" without logic function.
-ABC: Scl_LibertyReadGenlib() skipped cell "ICGNX0P5H7L" without logic function.
-ABC: Scl_LibertyReadGenlib() skipped cell "ICGNX1H7L" without logic function.
-ABC: Scl_LibertyReadGenlib() skipped cell "ICGNX2H7L" without logic function.
-ABC: Scl_LibertyReadGenlib() skipped cell "ICGNX3H7L" without logic function.
-ABC: Scl_LibertyReadGenlib() skipped cell "ICGNX4H7L" without logic function.
-ABC: Scl_LibertyReadGenlib() skipped cell "ICGX0P5H7L" without logic function.
-ABC: Scl_LibertyReadGenlib() skipped cell "ICGX1H7L" without logic function.
-ABC: Scl_LibertyReadGenlib() skipped cell "ICGX2H7L" without logic function.
-ABC: Scl_LibertyReadGenlib() skipped cell "ICGX3H7L" without logic function.
-ABC: Scl_LibertyReadGenlib() skipped cell "ICGX4H7L" without logic function.
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHRX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHRX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHRX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHSRX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHSRX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHSRX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHSX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHSX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHSX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHX3H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHX4H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLRX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLRX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLRX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLSRX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLSRX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLSRX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLSX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLSX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLSX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLX3H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLX4H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNRX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNRX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNRX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNRX3H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNSX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNSX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNSX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFQX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFQX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFQX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFQX3H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFRQX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFRQX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFRQX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSRQX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSRQX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSRX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSRX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSRX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFTRQX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFTRQX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFTRQX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFTRQX3H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFX3H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX0P7H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX12H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX16H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX1P4H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX3H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX4H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX6H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX8H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX0P7H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX12H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX16H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX1P4H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX3H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX4H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX6H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX8H7L".
-ABC: Library "ics55_LLSC_H7CL_typ_tt_1p2_25" from "/opt/github/riscv-ai-accelerator/chisel/synthesis/pdk/icsprout55-pdk/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib" has 600 cells (147 skipped: 111 seq; 22 tri-state; 14 no func; 0 dont_use; 0 with 2 outputs; 0 with 3+ outputs).  Time =     0.82 sec
-ABC: Memory =  135.91 MB. Time =     0.82 sec
-ABC: Warning: Detected 6 multi-output cells (for example, "ADDFX1H7L").
-ABC: + strash 
-ABC: + &get -n 
-ABC: + &fraig -x 
-ABC: + &put 
-ABC: + scorr 
-ABC: Warning: The network is combinational (run "fraig" or "fraig_sweep").
-ABC: + dc2 
-ABC: + dretime 
-ABC: + retime -o -D 10000 
-ABC: + strash 
-ABC: + &get -n 
-ABC: + &dch -f 
-ABC: + &nf -D 10000 
-ABC: + &put 
-ABC: + write_blif <abc-temp-dir>/output.blif 
-
-25.32.2. Re-integrating ABC results.
-ABC RESULTS:     AOA211X0P5H7L cells:       37
-ABC RESULTS:       MUX2X0P5H7L cells:       74
-ABC RESULTS:      NAND2X0P5H7L cells:        1
-ABC RESULTS:        NOR2BX1H7L cells:       38
-ABC RESULTS:        internal signals:       79
-ABC RESULTS:           input signals:      115
-ABC RESULTS:          output signals:      111
-Removing temp directory.
-
-25.33. Extracting gate netlist of module `\ram_2x39' to `<abc-temp-dir>/input.blif'..
-Replacing 79 occurrences of constant undef bits with constant zero bits
-
-25.33.1. Executed ABC.
-Extracted 199 gates and 321 wires to a netlist network with 121 inputs and 117 outputs.
-Running ABC script: <abc-temp-dir>/abc.script
-ABC: UC Berkeley, ABC 1.01 (compiled Nov  6 2025 02:37:05)
-ABC: abc 01> empty
-ABC: abc 01> source <abc-temp-dir>/abc.script
-ABC: + read_blif <abc-temp-dir>/input.blif 
-ABC: + read_lib -w /opt/github/riscv-ai-accelerator/chisel/synthesis/pdk/icsprout55-pdk/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib 
 ABC: Parsing finished successfully.  Parsing time =     0.54 sec
 ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX1H7L".
 ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX2H7L".
@@ -15076,209 +14888,21 @@ ABC: + &nf -D 10000
 ABC: + &put 
 ABC: + write_blif <abc-temp-dir>/output.blif 
 
-25.33.2. Re-integrating ABC results.
-ABC RESULTS:     AOA211X0P5H7L cells:       39
-ABC RESULTS:       MUX2X0P5H7L cells:       78
+25.32.2. Re-integrating ABC results.
+ABC RESULTS:     AOA211X0P5H7L cells:       37
+ABC RESULTS:       MUX2X0P5H7L cells:       74
 ABC RESULTS:      NAND2X0P5H7L cells:        1
-ABC RESULTS:        NOR2BX1H7L cells:       40
-ABC RESULTS:        internal signals:       83
-ABC RESULTS:           input signals:      121
-ABC RESULTS:          output signals:      117
+ABC RESULTS:        NOR2BX1H7L cells:       38
+ABC RESULTS:        internal signals:       79
+ABC RESULTS:           input signals:      115
+ABC RESULTS:          output signals:      111
 Removing temp directory.
 
-25.34. Extracting gate netlist of module `\ram_2x58' to `<abc-temp-dir>/input.blif'..
-Replacing 117 occurrences of constant undef bits with constant zero bits
+25.33. Extracting gate netlist of module `\ram_2x39' to `<abc-temp-dir>/input.blif'..
+Replacing 79 occurrences of constant undef bits with constant zero bits
 
-25.34.1. Executed ABC.
-Extracted 294 gates and 473 wires to a netlist network with 178 inputs and 174 outputs.
-Running ABC script: <abc-temp-dir>/abc.script
-ABC: UC Berkeley, ABC 1.01 (compiled Nov  6 2025 02:37:05)
-ABC: abc 01> empty
-ABC: abc 01> source <abc-temp-dir>/abc.script
-ABC: + read_blif <abc-temp-dir>/input.blif 
-ABC: + read_lib -w /opt/github/riscv-ai-accelerator/chisel/synthesis/pdk/icsprout55-pdk/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib 
-ABC: Parsing finished successfully.  Parsing time =     0.55 sec
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX3H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNRX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNRX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNRX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNRX4H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNSRX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNSRX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNSRX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNSX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNSX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNSX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNX3H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFQX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFQX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFQX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFQX3H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRQNX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRQNX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRQX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRQX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRQX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRX3H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSQNX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSQNX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSQX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSQX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSRQX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSRQX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSRX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSRX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSRX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFTRQX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFTRQX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFTRQX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFX3H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "ESDFFQX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "ESDFFQX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "ESDFFQX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped cell "FILLCAP16H7L" without logic function.
-ABC: Scl_LibertyReadGenlib() skipped cell "FILLCAP32H7L" without logic function.
-ABC: Scl_LibertyReadGenlib() skipped cell "FILLCAP4H7L" without logic function.
-ABC: Scl_LibertyReadGenlib() skipped cell "FILLCAP8H7L" without logic function.
-ABC: Scl_LibertyReadGenlib() skipped cell "ICGNX0P5H7L" without logic function.
-ABC: Scl_LibertyReadGenlib() skipped cell "ICGNX1H7L" without logic function.
-ABC: Scl_LibertyReadGenlib() skipped cell "ICGNX2H7L" without logic function.
-ABC: Scl_LibertyReadGenlib() skipped cell "ICGNX3H7L" without logic function.
-ABC: Scl_LibertyReadGenlib() skipped cell "ICGNX4H7L" without logic function.
-ABC: Scl_LibertyReadGenlib() skipped cell "ICGX0P5H7L" without logic function.
-ABC: Scl_LibertyReadGenlib() skipped cell "ICGX1H7L" without logic function.
-ABC: Scl_LibertyReadGenlib() skipped cell "ICGX2H7L" without logic function.
-ABC: Scl_LibertyReadGenlib() skipped cell "ICGX3H7L" without logic function.
-ABC: Scl_LibertyReadGenlib() skipped cell "ICGX4H7L" without logic function.
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHRX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHRX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHRX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHSRX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHSRX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHSRX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHSX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHSX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHSX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHX3H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHX4H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLRX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLRX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLRX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLSRX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLSRX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLSRX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLSX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLSX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLSX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLX3H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLX4H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNRX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNRX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNRX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNRX3H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNSX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNSX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNSX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFQX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFQX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFQX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFQX3H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFRQX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFRQX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFRQX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSRQX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSRQX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSRX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSRX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSRX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFTRQX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFTRQX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFTRQX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFTRQX3H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFX3H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX0P7H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX12H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX16H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX1P4H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX3H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX4H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX6H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX8H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX0P5H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX0P7H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX12H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX16H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX1H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX1P4H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX2H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX3H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX4H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX6H7L".
-ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX8H7L".
-ABC: Library "ics55_LLSC_H7CL_typ_tt_1p2_25" from "/opt/github/riscv-ai-accelerator/chisel/synthesis/pdk/icsprout55-pdk/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib" has 600 cells (147 skipped: 111 seq; 22 tri-state; 14 no func; 0 dont_use; 0 with 2 outputs; 0 with 3+ outputs).  Time =     0.82 sec
-ABC: Memory =  135.91 MB. Time =     0.82 sec
-ABC: Warning: Detected 6 multi-output cells (for example, "ADDFX1H7L").
-ABC: + strash 
-ABC: + &get -n 
-ABC: + &fraig -x 
-ABC: + &put 
-ABC: + scorr 
-ABC: Warning: The network is combinational (run "fraig" or "fraig_sweep").
-ABC: + dc2 
-ABC: + dretime 
-ABC: + retime -o -D 10000 
-ABC: + strash 
-ABC: + &get -n 
-ABC: + &dch -f 
-ABC: + &nf -D 10000 
-ABC: + &put 
-ABC: + write_blif <abc-temp-dir>/output.blif 
-
-25.34.2. Re-integrating ABC results.
-ABC RESULTS:     AOA211X0P5H7L cells:       58
-ABC RESULTS:       MUX2X0P5H7L cells:      116
-ABC RESULTS:      NAND2X0P5H7L cells:        1
-ABC RESULTS:        NOR2BX1H7L cells:       59
-ABC RESULTS:        internal signals:      121
-ABC RESULTS:           input signals:      178
-ABC RESULTS:          output signals:      174
-Removing temp directory.
-
-25.35. Extracting gate netlist of module `\ram_2x6' to `<abc-temp-dir>/input.blif'..
-Replacing 13 occurrences of constant undef bits with constant zero bits
-
-25.35.1. Executed ABC.
-Extracted 34 gates and 57 wires to a netlist network with 22 inputs and 18 outputs.
+25.33.1. Executed ABC.
+Extracted 199 gates and 321 wires to a netlist network with 121 inputs and 117 outputs.
 Running ABC script: <abc-temp-dir>/abc.script
 ABC: UC Berkeley, ABC 1.01 (compiled Nov  6 2025 02:37:05)
 ABC: abc 01> empty
@@ -15452,28 +15076,28 @@ ABC: + &nf -D 10000
 ABC: + &put 
 ABC: + write_blif <abc-temp-dir>/output.blif 
 
-25.35.2. Re-integrating ABC results.
-ABC RESULTS:     AOA211X0P5H7L cells:        6
-ABC RESULTS:       MUX2X0P5H7L cells:       12
+25.33.2. Re-integrating ABC results.
+ABC RESULTS:     AOA211X0P5H7L cells:       39
+ABC RESULTS:       MUX2X0P5H7L cells:       78
 ABC RESULTS:      NAND2X0P5H7L cells:        1
-ABC RESULTS:        NOR2BX1H7L cells:        7
-ABC RESULTS:        internal signals:       17
-ABC RESULTS:           input signals:       22
-ABC RESULTS:          output signals:       18
+ABC RESULTS:        NOR2BX1H7L cells:       40
+ABC RESULTS:        internal signals:       83
+ABC RESULTS:           input signals:      121
+ABC RESULTS:          output signals:      117
 Removing temp directory.
 
-25.36. Extracting gate netlist of module `\uart_receiver' to `<abc-temp-dir>/input.blif'..
-Replacing 91 occurrences of constant undef bits with constant zero bits
+25.34. Extracting gate netlist of module `\ram_2x58' to `<abc-temp-dir>/input.blif'..
+Replacing 117 occurrences of constant undef bits with constant zero bits
 
-25.36.1. Executed ABC.
-Extracted 704 gates and 776 wires to a netlist network with 69 inputs and 108 outputs.
+25.34.1. Executed ABC.
+Extracted 294 gates and 473 wires to a netlist network with 178 inputs and 174 outputs.
 Running ABC script: <abc-temp-dir>/abc.script
 ABC: UC Berkeley, ABC 1.01 (compiled Nov  6 2025 02:37:05)
 ABC: abc 01> empty
 ABC: abc 01> source <abc-temp-dir>/abc.script
 ABC: + read_blif <abc-temp-dir>/input.blif 
 ABC: + read_lib -w /opt/github/riscv-ai-accelerator/chisel/synthesis/pdk/icsprout55-pdk/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib 
-ABC: Parsing finished successfully.  Parsing time =     0.58 sec
+ABC: Parsing finished successfully.  Parsing time =     0.56 sec
 ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX1H7L".
 ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX2H7L".
 ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX3H7L".
@@ -15621,8 +15245,384 @@ ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX3H7L".
 ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX4H7L".
 ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX6H7L".
 ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX8H7L".
-ABC: Library "ics55_LLSC_H7CL_typ_tt_1p2_25" from "/opt/github/riscv-ai-accelerator/chisel/synthesis/pdk/icsprout55-pdk/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib" has 600 cells (147 skipped: 111 seq; 22 tri-state; 14 no func; 0 dont_use; 0 with 2 outputs; 0 with 3+ outputs).  Time =     0.85 sec
-ABC: Memory =  135.91 MB. Time =     0.85 sec
+ABC: Library "ics55_LLSC_H7CL_typ_tt_1p2_25" from "/opt/github/riscv-ai-accelerator/chisel/synthesis/pdk/icsprout55-pdk/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib" has 600 cells (147 skipped: 111 seq; 22 tri-state; 14 no func; 0 dont_use; 0 with 2 outputs; 0 with 3+ outputs).  Time =     0.83 sec
+ABC: Memory =  135.91 MB. Time =     0.83 sec
+ABC: Warning: Detected 6 multi-output cells (for example, "ADDFX1H7L").
+ABC: + strash 
+ABC: + &get -n 
+ABC: + &fraig -x 
+ABC: + &put 
+ABC: + scorr 
+ABC: Warning: The network is combinational (run "fraig" or "fraig_sweep").
+ABC: + dc2 
+ABC: + dretime 
+ABC: + retime -o -D 10000 
+ABC: + strash 
+ABC: + &get -n 
+ABC: + &dch -f 
+ABC: + &nf -D 10000 
+ABC: + &put 
+ABC: + write_blif <abc-temp-dir>/output.blif 
+
+25.34.2. Re-integrating ABC results.
+ABC RESULTS:     AOA211X0P5H7L cells:       58
+ABC RESULTS:       MUX2X0P5H7L cells:      116
+ABC RESULTS:      NAND2X0P5H7L cells:        1
+ABC RESULTS:        NOR2BX1H7L cells:       59
+ABC RESULTS:        internal signals:      121
+ABC RESULTS:           input signals:      178
+ABC RESULTS:          output signals:      174
+Removing temp directory.
+
+25.35. Extracting gate netlist of module `\ram_2x6' to `<abc-temp-dir>/input.blif'..
+Replacing 13 occurrences of constant undef bits with constant zero bits
+
+25.35.1. Executed ABC.
+Extracted 34 gates and 57 wires to a netlist network with 22 inputs and 18 outputs.
+Running ABC script: <abc-temp-dir>/abc.script
+ABC: UC Berkeley, ABC 1.01 (compiled Nov  6 2025 02:37:05)
+ABC: abc 01> empty
+ABC: abc 01> source <abc-temp-dir>/abc.script
+ABC: + read_blif <abc-temp-dir>/input.blif 
+ABC: + read_lib -w /opt/github/riscv-ai-accelerator/chisel/synthesis/pdk/icsprout55-pdk/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib 
+ABC: Parsing finished successfully.  Parsing time =     0.54 sec
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX3H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNRX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNRX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNRX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNRX4H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNSRX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNSRX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNSRX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNSX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNSX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNSX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNX3H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFQX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFQX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFQX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFQX3H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRQNX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRQNX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRQX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRQX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRQX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRX3H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSQNX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSQNX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSQX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSQX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSRQX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSRQX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSRX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSRX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSRX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFTRQX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFTRQX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFTRQX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFX3H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "ESDFFQX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "ESDFFQX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "ESDFFQX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped cell "FILLCAP16H7L" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "FILLCAP32H7L" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "FILLCAP4H7L" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "FILLCAP8H7L" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "ICGNX0P5H7L" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "ICGNX1H7L" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "ICGNX2H7L" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "ICGNX3H7L" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "ICGNX4H7L" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "ICGX0P5H7L" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "ICGX1H7L" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "ICGX2H7L" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "ICGX3H7L" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "ICGX4H7L" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHRX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHRX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHRX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHSRX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHSRX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHSRX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHSX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHSX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHSX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHX3H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHX4H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLRX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLRX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLRX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLSRX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLSRX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLSRX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLSX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLSX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLSX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLX3H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLX4H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNRX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNRX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNRX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNRX3H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNSX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNSX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNSX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFQX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFQX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFQX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFQX3H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFRQX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFRQX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFRQX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSRQX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSRQX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSRX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSRX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSRX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFTRQX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFTRQX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFTRQX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFTRQX3H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFX3H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX0P7H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX12H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX16H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX1P4H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX3H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX4H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX6H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX8H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX0P7H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX12H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX16H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX1P4H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX3H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX4H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX6H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX8H7L".
+ABC: Library "ics55_LLSC_H7CL_typ_tt_1p2_25" from "/opt/github/riscv-ai-accelerator/chisel/synthesis/pdk/icsprout55-pdk/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib" has 600 cells (147 skipped: 111 seq; 22 tri-state; 14 no func; 0 dont_use; 0 with 2 outputs; 0 with 3+ outputs).  Time =     0.80 sec
+ABC: Memory =  135.91 MB. Time =     0.80 sec
+ABC: Warning: Detected 6 multi-output cells (for example, "ADDFX1H7L").
+ABC: + strash 
+ABC: + &get -n 
+ABC: + &fraig -x 
+ABC: + &put 
+ABC: + scorr 
+ABC: Warning: The network is combinational (run "fraig" or "fraig_sweep").
+ABC: + dc2 
+ABC: + dretime 
+ABC: + retime -o -D 10000 
+ABC: + strash 
+ABC: + &get -n 
+ABC: + &dch -f 
+ABC: + &nf -D 10000 
+ABC: + &put 
+ABC: + write_blif <abc-temp-dir>/output.blif 
+
+25.35.2. Re-integrating ABC results.
+ABC RESULTS:     AOA211X0P5H7L cells:        6
+ABC RESULTS:       MUX2X0P5H7L cells:       12
+ABC RESULTS:      NAND2X0P5H7L cells:        1
+ABC RESULTS:        NOR2BX1H7L cells:        7
+ABC RESULTS:        internal signals:       17
+ABC RESULTS:           input signals:       22
+ABC RESULTS:          output signals:       18
+Removing temp directory.
+
+25.36. Extracting gate netlist of module `\uart_receiver' to `<abc-temp-dir>/input.blif'..
+Replacing 91 occurrences of constant undef bits with constant zero bits
+
+25.36.1. Executed ABC.
+Extracted 704 gates and 776 wires to a netlist network with 69 inputs and 108 outputs.
+Running ABC script: <abc-temp-dir>/abc.script
+ABC: UC Berkeley, ABC 1.01 (compiled Nov  6 2025 02:37:05)
+ABC: abc 01> empty
+ABC: abc 01> source <abc-temp-dir>/abc.script
+ABC: + read_blif <abc-temp-dir>/input.blif 
+ABC: + read_lib -w /opt/github/riscv-ai-accelerator/chisel/synthesis/pdk/icsprout55-pdk/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib 
+ABC: Parsing finished successfully.  Parsing time =     0.55 sec
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX3H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNRX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNRX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNRX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNRX4H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNSRX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNSRX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNSRX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNSX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNSX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNSX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNX3H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFQX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFQX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFQX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFQX3H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRQNX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRQNX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRQX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRQX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRQX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRX3H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSQNX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSQNX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSQX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSQX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSRQX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSRQX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSRX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSRX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSRX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFSX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFTRQX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFTRQX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFTRQX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFX3H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "ESDFFQX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "ESDFFQX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "ESDFFQX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped cell "FILLCAP16H7L" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "FILLCAP32H7L" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "FILLCAP4H7L" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "FILLCAP8H7L" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "ICGNX0P5H7L" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "ICGNX1H7L" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "ICGNX2H7L" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "ICGNX3H7L" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "ICGNX4H7L" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "ICGX0P5H7L" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "ICGX1H7L" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "ICGX2H7L" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "ICGX3H7L" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "ICGX4H7L" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHRX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHRX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHRX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHSRX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHSRX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHSRX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHSX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHSX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHSX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHX3H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATHX4H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLRX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLRX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLRX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLSRX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLSRX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLSRX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLSX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLSX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLSX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLX3H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "LATLX4H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNRX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNRX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNRX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNRX3H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNSX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNSX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNSX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFNX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFQX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFQX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFQX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFQX3H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFRQX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFRQX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFRQX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSRQX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSRQX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSRX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSRX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSRX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFSX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFTRQX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFTRQX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFTRQX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFTRQX3H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFX3H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX0P7H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX12H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX16H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX1P4H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX3H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX4H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX6H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUFX8H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX0P5H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX0P7H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX12H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX16H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX1H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX1P4H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX2H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX3H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX4H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX6H7L".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX8H7L".
+ABC: Library "ics55_LLSC_H7CL_typ_tt_1p2_25" from "/opt/github/riscv-ai-accelerator/chisel/synthesis/pdk/icsprout55-pdk/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib" has 600 cells (147 skipped: 111 seq; 22 tri-state; 14 no func; 0 dont_use; 0 with 2 outputs; 0 with 3+ outputs).  Time =     0.81 sec
+ABC: Memory =  135.91 MB. Time =     0.81 sec
 ABC: Warning: Detected 6 multi-output cells (for example, "ADDFX1H7L").
 ABC: + strash 
 ABC: + &get -n 
@@ -15846,8 +15846,8 @@ ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX3H7L".
 ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX4H7L".
 ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX6H7L".
 ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX8H7L".
-ABC: Library "ics55_LLSC_H7CL_typ_tt_1p2_25" from "/opt/github/riscv-ai-accelerator/chisel/synthesis/pdk/icsprout55-pdk/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib" has 600 cells (147 skipped: 111 seq; 22 tri-state; 14 no func; 0 dont_use; 0 with 2 outputs; 0 with 3+ outputs).  Time =     0.79 sec
-ABC: Memory =  135.91 MB. Time =     0.79 sec
+ABC: Library "ics55_LLSC_H7CL_typ_tt_1p2_25" from "/opt/github/riscv-ai-accelerator/chisel/synthesis/pdk/icsprout55-pdk/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib" has 600 cells (147 skipped: 111 seq; 22 tri-state; 14 no func; 0 dont_use; 0 with 2 outputs; 0 with 3+ outputs).  Time =     0.81 sec
+ABC: Memory =  135.91 MB. Time =     0.81 sec
 ABC: Warning: Detected 6 multi-output cells (for example, "ADDFX1H7L").
 ABC: + strash 
 ABC: + &get -n 
@@ -16076,8 +16076,8 @@ ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX3H7L".
 ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX4H7L".
 ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX6H7L".
 ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX8H7L".
-ABC: Library "ics55_LLSC_H7CL_typ_tt_1p2_25" from "/opt/github/riscv-ai-accelerator/chisel/synthesis/pdk/icsprout55-pdk/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib" has 600 cells (147 skipped: 111 seq; 22 tri-state; 14 no func; 0 dont_use; 0 with 2 outputs; 0 with 3+ outputs).  Time =     0.80 sec
-ABC: Memory =  135.91 MB. Time =     0.80 sec
+ABC: Library "ics55_LLSC_H7CL_typ_tt_1p2_25" from "/opt/github/riscv-ai-accelerator/chisel/synthesis/pdk/icsprout55-pdk/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib" has 600 cells (147 skipped: 111 seq; 22 tri-state; 14 no func; 0 dont_use; 0 with 2 outputs; 0 with 3+ outputs).  Time =     0.81 sec
+ABC: Memory =  135.91 MB. Time =     0.81 sec
 ABC: Warning: Detected 6 multi-output cells (for example, "ADDFX1H7L").
 ABC: + strash 
 ABC: + &get -n 
@@ -16286,8 +16286,8 @@ ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX3H7L".
 ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX4H7L".
 ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX6H7L".
 ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX8H7L".
-ABC: Library "ics55_LLSC_H7CL_typ_tt_1p2_25" from "/opt/github/riscv-ai-accelerator/chisel/synthesis/pdk/icsprout55-pdk/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib" has 600 cells (147 skipped: 111 seq; 22 tri-state; 14 no func; 0 dont_use; 0 with 2 outputs; 0 with 3+ outputs).  Time =     0.80 sec
-ABC: Memory =  135.91 MB. Time =     0.80 sec
+ABC: Library "ics55_LLSC_H7CL_typ_tt_1p2_25" from "/opt/github/riscv-ai-accelerator/chisel/synthesis/pdk/icsprout55-pdk/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib" has 600 cells (147 skipped: 111 seq; 22 tri-state; 14 no func; 0 dont_use; 0 with 2 outputs; 0 with 3+ outputs).  Time =     0.81 sec
+ABC: Memory =  135.91 MB. Time =     0.81 sec
 ABC: Warning: Detected 6 multi-output cells (for example, "ADDFX1H7L").
 ABC: + strash 
 ABC: + &get -n 
@@ -16327,7 +16327,7 @@ ABC: abc 01> empty
 ABC: abc 01> source <abc-temp-dir>/abc.script
 ABC: + read_blif <abc-temp-dir>/input.blif 
 ABC: + read_lib -w /opt/github/riscv-ai-accelerator/chisel/synthesis/pdk/icsprout55-pdk/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib 
-ABC: Parsing finished successfully.  Parsing time =     0.57 sec
+ABC: Parsing finished successfully.  Parsing time =     0.54 sec
 ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX1H7L".
 ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX2H7L".
 ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFNQX3H7L".
@@ -16475,8 +16475,8 @@ ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX3H7L".
 ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX4H7L".
 ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX6H7L".
 ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINVX8H7L".
-ABC: Library "ics55_LLSC_H7CL_typ_tt_1p2_25" from "/opt/github/riscv-ai-accelerator/chisel/synthesis/pdk/icsprout55-pdk/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib" has 600 cells (147 skipped: 111 seq; 22 tri-state; 14 no func; 0 dont_use; 0 with 2 outputs; 0 with 3+ outputs).  Time =     0.84 sec
-ABC: Memory =  135.91 MB. Time =     0.84 sec
+ABC: Library "ics55_LLSC_H7CL_typ_tt_1p2_25" from "/opt/github/riscv-ai-accelerator/chisel/synthesis/pdk/icsprout55-pdk/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib" has 600 cells (147 skipped: 111 seq; 22 tri-state; 14 no func; 0 dont_use; 0 with 2 outputs; 0 with 3+ outputs).  Time =     0.81 sec
+ABC: Memory =  135.91 MB. Time =     0.81 sec
 ABC: Warning: Detected 6 multi-output cells (for example, "ADDFX1H7L").
 ABC: + strash 
 ABC: + &get -n 
@@ -18468,6 +18468,6 @@ Dumping module `\ysyxSoCMinimal'.
 Dumping module `\ysyx_00000001'.
 
 Warnings: 2 unique messages, 3 total
-End of script. Logfile hash: 8a488c1305, CPU: user 11.47s system 0.47s, MEM: 269.20 MB peak
+End of script. Logfile hash: e6f0df3a4e, CPU: user 10.86s system 0.26s, MEM: 270.50 MB peak
 Yosys 0.58+138 (git sha1 3d5b1e0a9, clang++ 18.1.8 -fPIC -O3)
-Time spent: 79% 1x abc (40 sec), 4% 62x opt_expr (2 sec), ...
+Time spent: 80% 1x abc (40 sec), 4% 62x opt_expr (2 sec), ...
